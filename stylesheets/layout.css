@@ -1,0 +1,208 @@
+body {
+  font-family: Helvetica;
+  overflow: hidden;
+  background-color: #ececec;
+}
+
+/* главная страница */
+.menufixed {
+  position: fixed;
+  display: none;
+  height: 100vw;
+  width: 100vw;
+  background-color: #d9d9d9;
+  margin-top: -2vw;
+  z-index: 1000;
+  justify-content: center;
+  flex-direction: column;
+  align-items: start;
+  flex-wrap: wrap;
+}
+.closebutton {
+  position: absolute;
+  background-image: url(../images/closebutton.svg);
+  margin-top: -91vw;
+  margin-left: 92vw;
+  width: 5.8vw;
+  height: 3.2vw;
+  cursor: pointer;
+}
+.logomenu {
+  font-size: 5vw;
+  font-weight: bold;
+  margin-left: 2vw;
+  margin-top: -91vw;
+  position: absolute;
+}
+.mainlink {
+  margin-top: -39vw;
+  font-size: 2vw;
+  margin-left: 46vw;
+  cursor: pointer;
+}
+.aboutuslink {
+  margin-top: 3vw;
+  font-size: 2vw;
+  margin-left: 47vw;
+  cursor: pointer;
+}
+.afishalink {
+  margin-top: 3vw;
+  font-size: 2vw;
+  margin-left: 46.5vw;
+  cursor: pointer;
+}
+.onlinelink {
+  margin-top: 3vw;
+  font-size: 2vw;
+  margin-left: 42vw;
+  cursor: pointer;
+}
+.shoplink {
+  margin-top: 3vw;
+  font-size: 2vw;
+  margin-left: 46vw;
+  cursor: pointer;
+}
+.ticketlink {
+  margin-top: 3vw;
+  font-size: 2vw;
+  margin-left: 44vw;
+  cursor: pointer;
+}
+.mainlink a {
+  color: black;
+}
+.aboutuslink a {
+  color: black;
+}
+.afishalink a {
+  color: black;
+}
+.onlinelink a {
+  color: black;
+}
+.shoplink a {
+  color: black;
+}
+.ticketlink a {
+  color: black;
+}
+.scr1m {
+  margin-top: 2vw;
+  margin-left: 2vw;
+}
+.logo1 {
+  font-size: 5vw;
+  font-weight: bold;
+}
+.menubutton {
+  background-image: url(../images/menubutton.svg);
+  margin-top: -4vw;
+  margin-left: 90vw;
+  width: 5.8vw;
+  height: 3.2vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+/* страница о нас */
+.scr1au {
+  margin-top: 2vw;
+  margin-left: 2vw;
+}
+.logo2 {
+  font-size: 5vw;
+  font-weight: bold;
+}
+.menubutton {
+  background-image: url(../images/menubutton.svg);
+  margin-top: -4vw;
+  margin-left: 90vw;
+  width: 5.8vw;
+  height: 3.2vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+/* страница афиша  */
+.scr1af {
+  margin-top: 2vw;
+  margin-left: 2vw;
+}
+.logo3 {
+  font-size: 5vw;
+  font-weight: bold;
+}
+.menubutton {
+  background-image: url(../images/menubutton.svg);
+  margin-top: -4vw;
+  margin-left: 90vw;
+  width: 5.8vw;
+  height: 3.2vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+/* страница спектакль  */
+.scr1on {
+  margin-top: 2vw;
+  margin-left: 2vw;
+}
+.logo4 {
+  font-size: 5vw;
+  font-weight: bold;
+}
+.menubutton {
+  background-image: url(../images/menubutton.svg);
+  margin-top: -4vw;
+  margin-left: 90vw;
+  width: 5.8vw;
+  height: 3.2vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+/* страница магазин  */
+.scr1sh {
+  margin-top: 2vw;
+  margin-left: 2vw;
+}
+.logo5 {
+  font-size: 5vw;
+  font-weight: bold;
+}
+.menubutton {
+  background-image: url(../images/menubutton.svg);
+  margin-top: -4vw;
+  margin-left: 90vw;
+  width: 5.8vw;
+  height: 3.2vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+/* страница купить билет */
+.scr1tick {
+  margin-top: 2vw;
+  margin-left: 2vw;
+}
+.logo6 {
+  font-size: 5vw;
+  font-weight: bold;
+}
+.menubutton {
+  background-image: url(../images/menubutton.svg);
+  margin-top: -4vw;
+  margin-left: 90vw;
+  width: 5.8vw;
+  height: 3.2vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
