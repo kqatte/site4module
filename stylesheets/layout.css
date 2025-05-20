@@ -3,6 +3,9 @@ body {
   overflow: hidden;
   background-color: #ececec;
 }
+p {
+  color: #1b1717;
+}
 
 /* главная страница */
 .menufixed {
@@ -35,6 +38,7 @@ body {
   margin-left: 2vw;
   margin-top: -91vw;
   position: absolute;
+  color: #1b1717;
 }
 .mainlink {
   margin-top: -39vw;
@@ -73,22 +77,22 @@ body {
   cursor: pointer;
 }
 .mainlink a {
-  color: black;
+  color: #1b1717;
 }
 .aboutuslink a {
-  color: black;
+  color: #1b1717;
 }
 .afishalink a {
-  color: black;
+  color: #1b1717;
 }
 .onlinelink a {
-  color: black;
+  color: #1b1717;
 }
 .shoplink a {
-  color: black;
+  color: #1b1717;
 }
 .ticketlink a {
-  color: black;
+  color: #1b1717;
 }
 .scr1m {
   margin-top: 2vw;
@@ -97,6 +101,7 @@ body {
 .logo1 {
   font-size: 5vw;
   font-weight: bold;
+  color: #1b1717;
 }
 .menubutton {
   background-image: url(../images/menubutton.svg);
@@ -117,6 +122,7 @@ body {
 .logo2 {
   font-size: 5vw;
   font-weight: bold;
+  color: #1b1717;
 }
 .menubutton {
   background-image: url(../images/menubutton.svg);
@@ -137,6 +143,7 @@ body {
 .logo3 {
   font-size: 5vw;
   font-weight: bold;
+  color: #1b1717;
 }
 .menubutton {
   background-image: url(../images/menubutton.svg);
@@ -157,6 +164,7 @@ body {
 .logo4 {
   font-size: 5vw;
   font-weight: bold;
+  color: #1b1717;
 }
 .menubutton {
   background-image: url(../images/menubutton.svg);
@@ -177,6 +185,7 @@ body {
 .logo5 {
   font-size: 5vw;
   font-weight: bold;
+  color: #1b1717;
 }
 .menubutton {
   background-image: url(../images/menubutton.svg);
@@ -197,6 +206,7 @@ body {
 .logo6 {
   font-size: 5vw;
   font-weight: bold;
+  color: #1b1717;
 }
 .menubutton {
   background-image: url(../images/menubutton.svg);
@@ -207,4 +217,32 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;
+}
+
+/* страница 404 */
+
+.ops404 {
+  font-size: 17vw;
+  font-weight: bold;
+  margin-left: 2vw;
+  margin-top: 2vw;
+}
+.text1404 {
+  font-size: 3vw;
+  margin-left: 38vw;
+}
+.pic404 {
+  background-image: url(../images/404.svg);
+  width: 30.7vw;
+  height: 19.8vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 68vw;
+}
+.text2404 {
+  font-size: 3vw;
+  margin-left: 27vw;
+}
+.text2404 a {
+  color: #1b1717;
 }
