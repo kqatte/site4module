@@ -25,6 +25,8 @@ body {
   margin-left: 92vw;
   width: 5.8vw;
   height: 3.2vw;
+  background-repeat: no-repeat;
+  background-size: cover;
   cursor: pointer;
 }
 .logomenu {
