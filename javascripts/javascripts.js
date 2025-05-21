@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
   OpenMenu()
 })
 
+// открыть меню
 function OpenMenu() {
   const triggers = document.querySelectorAll('.menubutton')
   const fullscreenBlock = document.querySelector('.menufixed')

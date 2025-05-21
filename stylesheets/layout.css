@@ -2,11 +2,27 @@ body {
   font-family: Helvetica;
   overflow: hidden;
   background-color: #ececec;
+  position: relative;
 }
 p {
   color: #1b1717;
 }
-
+/* фоновый макет */
+.background::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 2368px;
+  background-image: url(../images/mainscreen.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  z-index: -1000;
+  pointer-events: none;
+}
 /* главная страница */
 .menufixed {
   position: fixed;
@@ -99,21 +115,30 @@ p {
   margin-left: 2vw;
 }
 .logo1 {
-  font-size: 5vw;
+  font-size: 6.3vw;
+  margin-left: -0.5vw;
   font-weight: bold;
   color: #1b1717;
 }
 .menubutton {
   background-image: url(../images/menubutton.svg);
-  margin-top: -4vw;
-  margin-left: 90vw;
+  margin-top: -5.1vw;
+  margin-left: 90.3vw;
   width: 5.8vw;
   height: 3.2vw;
   background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;
 }
-
+.tire {
+  width: 8.5vw;
+  height: 0.73vw;
+  background-image: url(../images/tire.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 30.6vw;
+  margin-top: -1.8vw;
+}
 /* страница о нас */
 .scr1au {
   margin-top: 2vw;
@@ -124,7 +149,7 @@ p {
   font-weight: bold;
   color: #1b1717;
 }
-.menubutton {
+/* .menubutton {
   background-image: url(../images/menubutton.svg);
   margin-top: -4vw;
   margin-left: 90vw;
@@ -133,7 +158,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;
-}
+} */
 
 /* страница афиша  */
 .scr1af {
@@ -145,7 +170,7 @@ p {
   font-weight: bold;
   color: #1b1717;
 }
-.menubutton {
+/* .menubutton {
   background-image: url(../images/menubutton.svg);
   margin-top: -4vw;
   margin-left: 90vw;
@@ -154,7 +179,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;
-}
+} */
 
 /* страница спектакль  */
 .scr1on {
@@ -166,7 +191,7 @@ p {
   font-weight: bold;
   color: #1b1717;
 }
-.menubutton {
+/* .menubutton {
   background-image: url(../images/menubutton.svg);
   margin-top: -4vw;
   margin-left: 90vw;
@@ -175,7 +200,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;
-}
+} */
 
 /* страница магазин  */
 .scr1sh {
@@ -187,7 +212,7 @@ p {
   font-weight: bold;
   color: #1b1717;
 }
-.menubutton {
+/* .menubutton {
   background-image: url(../images/menubutton.svg);
   margin-top: -4vw;
   margin-left: 90vw;
@@ -196,7 +221,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;
-}
+} */
 
 /* страница купить билет */
 .scr1tick {
@@ -208,7 +233,7 @@ p {
   font-weight: bold;
   color: #1b1717;
 }
-.menubutton {
+/* .menubutton {
   background-image: url(../images/menubutton.svg);
   margin-top: -4vw;
   margin-left: 90vw;
@@ -217,7 +242,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;
-}
+} */
 
 /* страница 404 */
 
