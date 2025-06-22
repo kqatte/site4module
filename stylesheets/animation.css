@@ -1,3 +1,30 @@
+/* навбар анимация наведения */
+.logomenu:hover {
+  transform: scale(1.05);
+  filter: brightness(40%);
+}
+.abusmenu:hover {
+  transform: scale(1.05);
+  filter: brightness(40%);
+}
+.afimenu:hover {
+  transform: scale(1.05);
+  filter: brightness(40%);
+}
+.onlmenu:hover {
+  transform: scale(1.05);
+  filter: brightness(40%);
+}
+.shmenu:hover {
+  transform: scale(1.05);
+  filter: brightness(40%);
+}
+.tickmenu:hover {
+  transform: scale(1.05);
+  filter: brightness(40%);
+}
+
+/* анимация движения картинок */
 @keyframes movemenu1 {
   0% {
     transform: translate(0%, 0%) rotate(0deg) translate(3vw, 0vw) rotate(0deg);
@@ -44,14 +71,14 @@
 
 @keyframes movemenu3 {
   0% {
-    transform: translate(0%, 0%) rotate(0deg) translate(4vw, 0vw) rotate(0deg);
+    transform: translate(0%, 0%) rotate(0deg) translate(-4vw, 0vw) rotate(0deg);
   }
   25% {
     transform: translate(0%, 0%) rotate(90deg) translate(0vw, 2vw)
       rotate(-90deg);
   }
   50% {
-    transform: translate(0%, 0%) rotate(180deg) translate(-4vw, 0vw)
+    transform: translate(0%, 0%) rotate(180deg) translate(4vw, 0vw)
       rotate(-180deg);
   }
   75% {
@@ -59,7 +86,7 @@
       rotate(-270deg);
   }
   100% {
-    transform: translate(0%, 0%) rotate(360deg) translate(4vw, 0vw)
+    transform: translate(0%, 0%) rotate(360deg) translate(-4vw, 0vw)
       rotate(-360deg);
   }
 }
@@ -95,7 +122,7 @@
       rotate(-90deg);
   }
   50% {
-    transform: translate(0%, 0%) rotate(180deg) translate(-2vw, 0vw)
+    transform: translate(0%, 0%) rotate(180deg) translate(1vw, 0vw)
       rotate(-180deg);
   }
   75% {
@@ -103,7 +130,7 @@
       rotate(-270deg);
   }
   100% {
-    transform: translate(0%, 0%) rotate(360deg) translate(2vw, 0vw)
+    transform: translate(0%, 0%) rotate(360deg) translate(1vw, 0vw)
       rotate(-360deg);
   }
 }
@@ -128,4 +155,227 @@
     transform: translate(0%, 0%) rotate(360deg) translate(-3vw, 0vw)
       rotate(-360deg);
   }
+}
+/* анимация остановки и затемнения картинок  */
+.shimgmenu:hover {
+  animation-play-state: paused;
+  filter: brightness(70%);
+}
+.onlimgmenu:hover {
+  animation-play-state: paused;
+  filter: brightness(70%);
+}
+.afimgmenu:hover {
+  animation-play-state: paused;
+  filter: brightness(70%);
+}
+.tickimgmenu:hover {
+  animation-play-state: paused;
+  filter: brightness(70%);
+}
+.premimgmenu:hover {
+  animation-play-state: paused;
+  filter: brightness(70%);
+}
+.abusimgmenu:hover {
+  animation-play-state: paused;
+  filter: brightness(70%);
+}
+
+/* подвал анимации */
+@keyframes movepodval1 {
+  0% {
+    transform: translate(0%, 0%) rotate(0deg) translate(1vw, 0vw) rotate(0deg);
+  }
+  25% {
+    transform: translate(0%, 0%) rotate(90deg) translate(0vw, 2vw)
+      rotate(-90deg);
+  }
+  50% {
+    transform: translate(0%, 0%) rotate(180deg) translate(-1vw, 0vw)
+      rotate(-180deg);
+  }
+  75% {
+    transform: translate(0%, 0%) rotate(270deg) translate(0vw, -2vw)
+      rotate(-270deg);
+  }
+  100% {
+    transform: translate(0%, 0%) rotate(360deg) translate(1vw, 0vw)
+      rotate(-360deg);
+  }
+}
+
+@keyframes movepodval2 {
+  0% {
+    transform: translate(0%, 0%) rotate(0deg) translate(-1vw, 0vw) rotate(0deg);
+  }
+  25% {
+    transform: translate(0%, 0%) rotate(90deg) translate(0vw, 2vw)
+      rotate(-90deg);
+  }
+  50% {
+    transform: translate(0%, 0%) rotate(180deg) translate(1vw, 0vw)
+      rotate(-180deg);
+  }
+  75% {
+    transform: translate(0%, 0%) rotate(270deg) translate(0vw, -2vw)
+      rotate(-270deg);
+  }
+  100% {
+    transform: translate(0%, 0%) rotate(360deg) translate(-1vw, 0vw)
+      rotate(-360deg);
+  }
+}
+
+@keyframes movepodval3 {
+  0% {
+    transform: translate(0%, 0%) rotate(0deg) translate(-2vw, 0vw) rotate(0deg);
+  }
+  25% {
+    transform: translate(0%, 0%) rotate(90deg) translate(0vw, 1vw)
+      rotate(-90deg);
+  }
+  50% {
+    transform: translate(0%, 0%) rotate(180deg) translate(2vw, 0vw)
+      rotate(-180deg);
+  }
+  75% {
+    transform: translate(0%, 0%) rotate(270deg) translate(0vw, -1vw)
+      rotate(-270deg);
+  }
+  100% {
+    transform: translate(0%, 0%) rotate(360deg) translate(-2vw, 0vw)
+      rotate(-360deg);
+  }
+}
+@keyframes movepodval4 {
+  0% {
+    transform: translate(0%, 0%) rotate(0deg) translate(1vw, 0vw) rotate(0deg);
+  }
+  25% {
+    transform: translate(0%, 0%) rotate(90deg) translate(0vw, 2vw)
+      rotate(-90deg);
+  }
+  50% {
+    transform: translate(0%, 0%) rotate(180deg) translate(-1vw, 0vw)
+      rotate(-180deg);
+  }
+  75% {
+    transform: translate(0%, 0%) rotate(270deg) translate(0vw, -2vw)
+      rotate(-270deg);
+  }
+  100% {
+    transform: translate(0%, 0%) rotate(360deg) translate(1vw, 0vw)
+      rotate(-360deg);
+  }
+}
+@keyframes movepodval5 {
+  0% {
+    transform: translate(0%, 0%) rotate(0deg) translate(-1vw, 0vw) rotate(0deg);
+  }
+  25% {
+    transform: translate(0%, 0%) rotate(90deg) translate(0vw, 2vw)
+      rotate(-90deg);
+  }
+  50% {
+    transform: translate(0%, 0%) rotate(180deg) translate(1vw, 0vw)
+      rotate(-180deg);
+  }
+  75% {
+    transform: translate(0%, 0%) rotate(270deg) translate(0vw, -2vw)
+      rotate(-270deg);
+  }
+  100% {
+    transform: translate(0%, 0%) rotate(360deg) translate(-1vw, 0vw)
+      rotate(-360deg);
+  }
+}
+@keyframes movepodval6 {
+  0% {
+    transform: translate(0%, 0%) rotate(0deg) translate(1vw, 0vw) rotate(0deg);
+  }
+  25% {
+    transform: translate(0%, 0%) rotate(90deg) translate(0vw, 1vw)
+      rotate(-90deg);
+  }
+  50% {
+    transform: translate(0%, 0%) rotate(180deg) translate(-1vw, 0vw)
+      rotate(-180deg);
+  }
+  75% {
+    transform: translate(0%, 0%) rotate(270deg) translate(0vw, -1vw)
+      rotate(-270deg);
+  }
+  100% {
+    transform: translate(0%, 0%) rotate(360deg) translate(1vw, 0vw)
+      rotate(-360deg);
+  }
+}
+@keyframes movepodval7 {
+  0% {
+    transform: translate(0%, 0%) rotate(0deg) translate(1vw, 0vw) rotate(0deg);
+  }
+  25% {
+    transform: translate(0%, 0%) rotate(90deg) translate(0vw, 1vw)
+      rotate(-90deg);
+  }
+  50% {
+    transform: translate(0%, 0%) rotate(180deg) translate(-1vw, 0vw)
+      rotate(-180deg);
+  }
+  75% {
+    transform: translate(0%, 0%) rotate(270deg) translate(0vw, -1vw)
+      rotate(-270deg);
+  }
+  100% {
+    transform: translate(0%, 0%) rotate(360deg) translate(1vw, 0vw)
+      rotate(-360deg);
+  }
+}
+
+@keyframes movepodval8 {
+  0% {
+    transform: translate(0%, 0%) rotate(0deg) translate(-1vw, 0vw) rotate(0deg);
+  }
+  25% {
+    transform: translate(0%, 0%) rotate(90deg) translate(0vw, 2vw)
+      rotate(-90deg);
+  }
+  50% {
+    transform: translate(0%, 0%) rotate(180deg) translate(1vw, 0vw)
+      rotate(-180deg);
+  }
+  75% {
+    transform: translate(0%, 0%) rotate(270deg) translate(0vw, -2vw)
+      rotate(-270deg);
+  }
+  100% {
+    transform: translate(0%, 0%) rotate(360deg) translate(-1vw, 0vw)
+      rotate(-360deg);
+  }
+}
+.logopodval:hover {
+  animation-play-state: paused;
+  transform: scale(1.05);
+  filter: brightness(70%);
+}
+.onlpodval:hover {
+  animation-play-state: paused;
+  filter: brightness(70%);
+}
+.afipodval:hover {
+  animation-play-state: paused;
+  filter: brightness(70%);
+}
+.shpodval:hover {
+  animation-play-state: paused;
+  filter: brightness(70%);
+}
+.tickpodval:hover {
+  animation-play-state: paused;
+  filter: brightness(70%);
+}
+.abuspodval:hover {
+  animation-play-state: paused;
+  filter: brightness(70%);
 }

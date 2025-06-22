@@ -2,11 +2,11 @@ body {
   font-family: Helvetica;
   background-color: #f7f7f7;
   position: relative;
-  /* background-image: url(../images/главная\ итог.jpg); */
+  background-image: url(../images/магазин\ итог.jpg);
   width: 100%;
-  /* height: 2114px;
-  z-index: -10000; */
-  /* opacity: 0.5; */
+  height: 4102px;
+  z-index: -10000;
+  opacity: 0.5;
 }
 
 p {
@@ -18,7 +18,6 @@ h1 {
   font-size: 6.25vw;
 }
 section {
-  /* position: relative; */
   width: 100vw;
   overflow: hidden;
 }
@@ -41,6 +40,7 @@ section {
   margin-left: 1.85vw;
   text-decoration: none;
   white-space: nowrap;
+  transition: transform 0.3s ease;
 }
 .abusmenu {
   position: absolute;
@@ -50,6 +50,7 @@ section {
   margin-left: 52.25vw;
   text-decoration: none;
   white-space: nowrap;
+  transition: transform 0.3s ease;
 }
 .afimenu {
   position: absolute;
@@ -59,6 +60,7 @@ section {
   margin-left: 58.57vw;
   text-decoration: none;
   white-space: nowrap;
+  transition: transform 0.3s ease;
 }
 .onlmenu {
   position: absolute;
@@ -68,6 +70,7 @@ section {
   margin-left: 66.14vw;
   text-decoration: none;
   white-space: nowrap;
+  transition: transform 0.3s ease;
 }
 .shmenu {
   position: absolute;
@@ -77,6 +80,7 @@ section {
   margin-left: 81vw;
   text-decoration: none;
   white-space: nowrap;
+  transition: transform 0.3s ease;
 }
 .tickmenu {
   position: absolute;
@@ -86,6 +90,7 @@ section {
   margin-left: 89.3vw;
   text-decoration: none;
   white-space: nowrap;
+  transition: transform 0.3s ease;
 }
 
 /* первый экран */
@@ -132,42 +137,43 @@ section {
   margin-top: 7.8vw;
   margin-left: 82.8vw;
   width: 7.36vw;
-  animation: movemenu1 7s linear infinite;
+  transition: transform 0.3s ease;
+  animation: movemenu1 10s linear infinite;
 }
 .onlimgmenu {
   position: absolute;
   margin-top: 22.5vw;
   margin-left: 1.9vw;
   width: 19.65vw;
-  animation: movemenu2 5s linear infinite;
+  animation: movemenu2 9s linear infinite;
 }
 .afimgmenu {
   position: absolute;
   margin-top: 32.9vw;
   margin-left: 29.9vw;
   width: 11.73vw;
-  animation: movemenu3 9s linear infinite;
+  animation: movemenu3 13s linear infinite;
 }
 .tickimgmenu {
   position: absolute;
   margin-top: 40vw;
   margin-left: 50vw;
   width: 19.86vw;
-  animation: movemenu4 7s linear infinite;
+  animation: movemenu4 10s linear infinite;
 }
 .premimgmenu {
   position: absolute;
   margin-top: 29.1vw;
   margin-left: 78.1vw;
   width: 20.07vw;
-  animation: movemenu5 10s linear infinite;
+  animation: movemenu5 9s linear infinite;
 }
 .abusimgmenu {
   position: absolute;
   margin-top: 49.6vw;
   margin-left: 18.05vw;
   width: 7.36vw;
-  animation: movemenu6 5s linear infinite;
+  animation: movemenu6 12s linear infinite;
 }
 
 /* второй экран */
@@ -194,4 +200,79 @@ section {
   margin-left: 1.9vw;
   position: absolute;
   width: 96.25vw;
+}
+
+/* подвал */
+.podval {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 22.9vw;
+}
+.onlpodval {
+  position: absolute;
+  margin-top: 7vw;
+  margin-left: 3.1vw;
+  width: 11.94vw;
+  animation: movepodval1 9s linear infinite;
+}
+.tickpodval {
+  position: absolute;
+  margin-top: 6.9vw;
+  margin-left: 25.7vw;
+  width: 11.94vw;
+  animation: movepodval2 7s linear infinite;
+}
+.afipodval {
+  position: absolute;
+  margin-top: 7.6vw;
+  margin-left: 52.9vw;
+  width: 11.94vw;
+  animation: movepodval3 10s linear infinite;
+}
+.abuspodval {
+  position: absolute;
+  margin-top: 15.5vw;
+  margin-left: 57vw;
+  width: 11.94vw;
+  animation: movepodval4 7s linear infinite;
+}
+.shpodval {
+  position: absolute;
+  margin-top: 8.7vw;
+  margin-left: 85.1vw;
+  width: 11.94vw;
+  animation: movepodval5 7s linear infinite;
+}
+.katepodval {
+  position: absolute;
+  margin-top: 12.2vw;
+  margin-left: 70.7vw;
+  width: 11.94vw;
+  animation: movepodval6 11s linear infinite;
+}
+.kamilapodval {
+  position: absolute;
+  margin-top: 14.5vw;
+  margin-left: 11.2vw;
+  width: 11.94vw;
+  animation: movepodval7 5s linear infinite;
+}
+.annapodval {
+  position: absolute;
+  margin-top: 13.3vw;
+  margin-left: 37.5vw;
+  width: 11.94vw;
+  animation: movepodval8 9s linear infinite;
+}
+.logopodval {
+  position: absolute;
+  color: #3d3d3d;
+  font-weight: bold;
+  font-size: 1.4vw;
+  margin-top: 19vw;
+  margin-left: 1.9vw;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: transform 0.3s ease;
 }
