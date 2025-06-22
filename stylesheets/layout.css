@@ -1,273 +1,150 @@
 body {
   font-family: Helvetica;
-  overflow: hidden;
-  background-color: #ececec;
+  background-color: #f7f7f7;
   position: relative;
+  background-image: url(../images/главная\ итог.jpg);
+  width: 100%;
+  height: 2114px;
+  z-index: -10000;
 }
+
 p {
-  color: #1b1717;
+  color: #3d3d3d;
+  font-size: 1.25vw;
 }
-/* фоновый макет */
-.background::before {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 1440px;
-  height: 2368px;
-  background-image: url(../images/mainscreen.svg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  opacity: 0.3;
-  z-index: -1000;
-  pointer-events: none;
+h1 {
+  color: #3d3d3d;
+  font-size: 6.25vw;
 }
-/* главная страница */
-.menufixed {
-  position: fixed;
-  display: none;
-  height: 100vw;
+section {
+  /* position: relative; */
   width: 100vw;
-  background-color: #d9d9d9;
-  margin-top: -2vw;
-  z-index: 1000;
-  justify-content: center;
-  flex-direction: column;
-  align-items: start;
-  flex-wrap: wrap;
+  overflow: hidden;
 }
-.closebutton {
-  position: absolute;
-  background-image: url(../images/closebutton.svg);
-  margin-top: -91vw;
-  margin-left: 92vw;
-  width: 5.8vw;
-  height: 3.2vw;
-  background-repeat: no-repeat;
-  background-size: cover;
-  cursor: pointer;
+
+/* главная страница */
+.navbar {
+  height: 5.27vw;
+  position: fixed;
+  background-color: #ececec;
+  opacity: 0.9;
+  z-index: 10000;
 }
 .logomenu {
-  font-size: 5vw;
-  font-weight: bold;
-  margin-left: 2vw;
-  margin-top: -91vw;
   position: absolute;
-  color: #1b1717;
-}
-.mainlink {
-  margin-top: -39vw;
-  font-size: 2vw;
-  margin-left: 46vw;
-  cursor: pointer;
-}
-.aboutuslink {
-  margin-top: 3vw;
-  font-size: 2vw;
-  margin-left: 47vw;
-  cursor: pointer;
-}
-.afishalink {
-  margin-top: 3vw;
-  font-size: 2vw;
-  margin-left: 46.5vw;
-  cursor: pointer;
-}
-.onlinelink {
-  margin-top: 3vw;
-  font-size: 2vw;
-  margin-left: 42vw;
-  cursor: pointer;
-}
-.shoplink {
-  margin-top: 3vw;
-  font-size: 2vw;
-  margin-left: 46vw;
-  cursor: pointer;
-}
-.ticketlink {
-  margin-top: 3vw;
-  font-size: 2vw;
-  margin-left: 44vw;
-  cursor: pointer;
-}
-.mainlink a {
-  color: #1b1717;
-}
-.aboutuslink a {
-  color: #1b1717;
-}
-.afishalink a {
-  color: #1b1717;
-}
-.onlinelink a {
-  color: #1b1717;
-}
-.shoplink a {
-  color: #1b1717;
-}
-.ticketlink a {
-  color: #1b1717;
-}
-.scr1m {
-  margin-top: 2vw;
-  margin-left: 2vw;
-}
-.logo1 {
-  font-size: 6.3vw;
-  margin-left: -0.5vw;
+  color: #3d3d3d;
   font-weight: bold;
-  color: #1b1717;
+  font-size: 1.4vw;
+  margin-top: 2vw;
+  margin-left: 1.85vw;
+  text-decoration: none;
+  white-space: nowrap;
 }
-.menubutton {
-  background-image: url(../images/menubutton.svg);
-  margin-top: -5.1vw;
-  margin-left: 90.3vw;
-  width: 5.8vw;
-  height: 3.2vw;
-  background-repeat: no-repeat;
-  background-size: cover;
-  cursor: pointer;
+.abusmenu {
+  position: absolute;
+  color: #3d3d3d;
+  font-size: 1.4vw;
+  margin-top: 2vw;
+  margin-left: 52.25vw;
+  text-decoration: none;
+  white-space: nowrap;
 }
-.tire {
+.afimenu {
+  position: absolute;
+  color: #3d3d3d;
+  font-size: 1.4vw;
+  margin-top: 2vw;
+  margin-left: 58.57vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.onlmenu {
+  position: absolute;
+  color: #3d3d3d;
+  font-size: 1.4vw;
+  margin-top: 2vw;
+  margin-left: 66.14vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.shmenu {
+  position: absolute;
+  color: #3d3d3d;
+  font-size: 1.4vw;
+  margin-top: 2vw;
+  margin-left: 81vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.tickmenu {
+  position: absolute;
+  color: #3d3d3d;
+  font-size: 1.4vw;
+  margin-top: 2vw;
+  margin-left: 89.3vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.h1main {
+  position: absolute;
+  margin-top: 5.2vw;
+  margin-left: 5.3vw;
+}
+.tiremain {
+  position: absolute;
   width: 8.5vw;
-  height: 0.73vw;
-  background-image: url(../images/tire.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-left: 30.6vw;
-  margin-top: -1.8vw;
+  margin-left: 37.4vw;
+  margin-top: 8.1vw;
 }
-/* страница о нас */
-.scr1au {
-  margin-top: 2vw;
-  margin-left: 2vw;
+.h2main {
+  position: absolute;
+  margin-top: 5.2vw;
+  margin-left: 58.4vw;
 }
-.logo2 {
-  font-size: 5vw;
-  font-weight: bold;
-  color: #1b1717;
+.h3main {
+  position: absolute;
+  margin-top: 12.3vw;
+  margin-left: 13.7vw;
 }
-/* .menubutton {
-  background-image: url(../images/menubutton.svg);
-  margin-top: -4vw;
-  margin-left: 90vw;
-  width: 5.8vw;
-  height: 3.2vw;
-  background-repeat: no-repeat;
-  background-size: cover;
-  cursor: pointer;
-} */
-
-/* страница афиша  */
-.scr1af {
-  margin-top: 2vw;
-  margin-left: 2vw;
+.h4main {
+  position: absolute;
+  margin-top: 17.5vw;
+  margin-left: 61vw;
 }
-.logo3 {
-  font-size: 5vw;
-  font-weight: bold;
-  color: #1b1717;
+.p1main {
+  position: absolute;
+  margin-top: 22.6vw;
+  margin-left: 24.3vw;
+  line-height: 115%;
 }
-/* .menubutton {
-  background-image: url(../images/menubutton.svg);
-  margin-top: -4vw;
-  margin-left: 90vw;
-  width: 5.8vw;
-  height: 3.2vw;
-  background-repeat: no-repeat;
-  background-size: cover;
-  cursor: pointer;
-} */
-
-/* страница спектакль  */
-.scr1on {
-  margin-top: 2vw;
-  margin-left: 2vw;
+.shimgmenu {
+  position: absolute;
+  margin-top: 7.8vw;
+  margin-left: 82.8vw;
+  width: 7.36vw;
 }
-.logo4 {
-  font-size: 5vw;
-  font-weight: bold;
-  color: #1b1717;
+.onlimgmenu {
+  position: absolute;
+  margin-top: 22.5vw;
+  margin-left: 1.9vw;
+  width: 19.65vw;
 }
-/* .menubutton {
-  background-image: url(../images/menubutton.svg);
-  margin-top: -4vw;
-  margin-left: 90vw;
-  width: 5.8vw;
-  height: 3.2vw;
-  background-repeat: no-repeat;
-  background-size: cover;
-  cursor: pointer;
-} */
-
-/* страница магазин  */
-.scr1sh {
-  margin-top: 2vw;
-  margin-left: 2vw;
+.afimgmenu {
+  position: absolute;
+  margin-top: 32.9vw;
+  margin-left: 29.9vw;
+  width: 11.73vw;
 }
-.logo5 {
-  font-size: 5vw;
-  font-weight: bold;
-  color: #1b1717;
+.tickimgmenu {
+  position: absolute;
+  margin-top: 40vw;
+  margin-left: 50vw;
+  width: 19.86vw;
 }
-/* .menubutton {
-  background-image: url(../images/menubutton.svg);
-  margin-top: -4vw;
-  margin-left: 90vw;
-  width: 5.8vw;
-  height: 3.2vw;
-  background-repeat: no-repeat;
-  background-size: cover;
-  cursor: pointer;
-} */
-
-/* страница купить билет */
-.scr1tick {
-  margin-top: 2vw;
-  margin-left: 2vw;
-}
-.logo6 {
-  font-size: 5vw;
-  font-weight: bold;
-  color: #1b1717;
-}
-/* .menubutton {
-  background-image: url(../images/menubutton.svg);
-  margin-top: -4vw;
-  margin-left: 90vw;
-  width: 5.8vw;
-  height: 3.2vw;
-  background-repeat: no-repeat;
-  background-size: cover;
-  cursor: pointer;
-} */
-
-/* страница 404 */
-
-.ops404 {
-  font-size: 17vw;
-  font-weight: bold;
-  margin-left: 2vw;
-  margin-top: 2vw;
-}
-.text1404 {
-  font-size: 3vw;
-  margin-left: 38vw;
-}
-.pic404 {
-  background-image: url(../images/404.svg);
-  width: 30.7vw;
-  height: 19.8vw;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-left: 68vw;
-}
-.text2404 {
-  font-size: 3vw;
-  margin-left: 27vw;
-}
-.text2404 a {
-  color: #1b1717;
+.premimgmenu {
+  position: absolute;
+  margin-top: 29.1vw;
+  margin-left: 78.1vw;
+  width: 20.07vw;
 }

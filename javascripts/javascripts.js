@@ -1,18 +1,18 @@
-document.addEventListener('DOMContentLoaded', () => {
-  OpenMenu()
-})
+// document.addEventListener('DOMContentLoaded', () => {
+//   OpenMenu()
+// })
 
-// открыть меню
-function OpenMenu() {
-  const triggers = document.querySelectorAll('.menubutton')
-  const fullscreenBlock = document.querySelector('.menufixed')
-  const closeBtn = document.querySelector('.closebutton')
-  triggers.forEach((trigger) => {
-    trigger.addEventListener('click', () => {
-      fullscreenBlock.style.display = 'flex'
-    })
-  })
-  closeBtn.addEventListener('click', () => {
-    fullscreenBlock.style.display = 'none'
-  })
-}
+// // открыть меню
+// function OpenMenu() {
+//   const triggers = document.querySelectorAll('.menubutton')
+//   const fullscreenBlock = document.querySelector('.menufixed')
+//   const closeBtn = document.querySelector('.closebutton')
+//   triggers.forEach((trigger) => {
+//     trigger.addEventListener('click', () => {
+//       fullscreenBlock.style.display = 'flex'
+//     })
+//   })
+//   closeBtn.addEventListener('click', () => {
+//     fullscreenBlock.style.display = 'none'
+//   })
+// }
