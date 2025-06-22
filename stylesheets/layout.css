@@ -2,10 +2,11 @@ body {
   font-family: Helvetica;
   background-color: #f7f7f7;
   position: relative;
-  background-image: url(../images/главная\ итог.jpg);
+  /* background-image: url(../images/главная\ итог.jpg); */
   width: 100%;
-  height: 2114px;
-  z-index: -10000;
+  /* height: 2114px;
+  z-index: -10000; */
+  /* opacity: 0.5; */
 }
 
 p {
@@ -23,6 +24,7 @@ section {
 }
 
 /* главная страница */
+/* навбар */
 .navbar {
   height: 5.27vw;
   position: fixed;
@@ -86,6 +88,13 @@ section {
   white-space: nowrap;
 }
 
+/* первый экран */
+.scr1main {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 63.611vw;
+}
 .h1main {
   position: absolute;
   margin-top: 5.2vw;
@@ -123,28 +132,66 @@ section {
   margin-top: 7.8vw;
   margin-left: 82.8vw;
   width: 7.36vw;
+  animation: movemenu1 7s linear infinite;
 }
 .onlimgmenu {
   position: absolute;
   margin-top: 22.5vw;
   margin-left: 1.9vw;
   width: 19.65vw;
+  animation: movemenu2 5s linear infinite;
 }
 .afimgmenu {
   position: absolute;
   margin-top: 32.9vw;
   margin-left: 29.9vw;
   width: 11.73vw;
+  animation: movemenu3 9s linear infinite;
 }
 .tickimgmenu {
   position: absolute;
   margin-top: 40vw;
   margin-left: 50vw;
   width: 19.86vw;
+  animation: movemenu4 7s linear infinite;
 }
 .premimgmenu {
   position: absolute;
   margin-top: 29.1vw;
   margin-left: 78.1vw;
   width: 20.07vw;
+  animation: movemenu5 10s linear infinite;
+}
+.abusimgmenu {
+  position: absolute;
+  margin-top: 49.6vw;
+  margin-left: 18.05vw;
+  width: 7.36vw;
+  animation: movemenu6 5s linear infinite;
+}
+
+/* второй экран */
+.scr2main {
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+  height: 61.11vw;
+}
+.komandaarina {
+  margin-top: 5.3vw;
+  margin-left: 1.9vw;
+  position: absolute;
+  width: 96.25vw;
+}
+.komandadaria {
+  margin-top: 23.4vw;
+  margin-left: 1.9vw;
+  position: absolute;
+  width: 96.25vw;
+}
+.komandanastya {
+  margin-top: 41.6vw;
+  margin-left: 1.9vw;
+  position: absolute;
+  width: 96.25vw;
 }
