@@ -379,3 +379,119 @@
   animation-play-state: paused;
   filter: brightness(70%);
 }
+
+/* афиша премьера текст */
+
+@keyframes moveh1afi {
+  0% {
+    transform: translate(0%, 0%) rotate(0deg) translate(3vw, 0vw) rotate(0deg);
+  }
+  25% {
+    transform: translate(0%, 0%) rotate(90deg) translate(0vw, 2vw)
+      rotate(-90deg);
+  }
+  50% {
+    transform: translate(0%, 0%) rotate(180deg) translate(1vw, 0vw)
+      rotate(-180deg);
+  }
+  75% {
+    transform: translate(0%, 0%) rotate(270deg) translate(0vw, -2vw)
+      rotate(-270deg);
+  }
+  100% {
+    transform: translate(0%, 0%) rotate(360deg) translate(3vw, 0vw)
+      rotate(-360deg);
+  }
+}
+@keyframes moveh2afi {
+  0% {
+    transform: translate(0%, 0%) rotate(0deg) translate(-3vw, 0vw) rotate(0deg);
+  }
+  25% {
+    transform: translate(0%, 0%) rotate(90deg) translate(0vw, 2vw)
+      rotate(-90deg);
+  }
+  50% {
+    transform: translate(0%, 0%) rotate(180deg) translate(2vw, 0vw)
+      rotate(-180deg);
+  }
+  75% {
+    transform: translate(0%, 0%) rotate(270deg) translate(0vw, -2vw)
+      rotate(-270deg);
+  }
+  100% {
+    transform: translate(0%, 0%) rotate(360deg) translate(-3vw, 0vw)
+      rotate(-360deg);
+  }
+}
+@keyframes moveh3afi {
+  0% {
+    transform: translate(0%, 0%) rotate(0deg) translate(-3vw, 0vw) rotate(0deg);
+  }
+  25% {
+    transform: translate(0%, 0%) rotate(90deg) translate(0vw, -2vw)
+      rotate(-90deg);
+  }
+  50% {
+    transform: translate(0%, 0%) rotate(180deg) translate(-1vw, 0vw)
+      rotate(-180deg);
+  }
+  75% {
+    transform: translate(0%, 0%) rotate(270deg) translate(0vw, 0vw)
+      rotate(-270deg);
+  }
+  100% {
+    transform: translate(0%, 0%) rotate(360deg) translate(-3vw, 0vw)
+      rotate(-360deg);
+  }
+}
+/* @keyframes moveh1afi {
+  0% {
+    transform: translateX(0vw);
+  }
+  50% {
+    transform: translateX(26.5vw);
+  }
+
+  100% {
+    transform: translateX(0vw);
+  }
+}
+@keyframes moveh2afi {
+  0% {
+    transform: translateX(0vw);
+  }
+  50% {
+    transform: translateX(-55.5vw);
+  }
+
+  100% {
+    transform: translateX(0vw);
+  }
+}
+@keyframes moveh3afi {
+  0% {
+    transform: translateX(0vw);
+  }
+  33% {
+    transform: translateX(24vw);
+  }
+  66% {
+    transform: translateX(-17vw);
+  }
+  100% {
+    transform: translateX(0vw);
+  }
+} */
+/* афиша зины */
+@keyframes movezin1 {
+  0% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 20%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}

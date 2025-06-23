@@ -2,11 +2,11 @@ body {
   font-family: Helvetica;
   background-color: #f7f7f7;
   position: relative;
-  background-image: url(../images/магазин\ итог.jpg);
+  /* background-image: url(../images/афиша\ итог.jpg); */
   width: 100%;
-  height: 4102px;
+  /* height: 3517px;
   z-index: -10000;
-  opacity: 0.5;
+  opacity: 0.5; */
 }
 
 p {
@@ -275,4 +275,148 @@ section {
   text-decoration: none;
   white-space: nowrap;
   transition: transform 0.3s ease;
+}
+
+/* страница афиша */
+.scr1afi {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 32vw;
+}
+.h1afi {
+  position: absolute;
+  margin-top: 8.7vw;
+  margin-left: 1.9vw;
+  word-spacing: 5vw;
+  animation: moveh1afi 8s linear infinite;
+}
+.h2afi {
+  position: absolute;
+  margin-top: 17vw;
+  margin-left: 56.9vw;
+  word-spacing: 5vw;
+  animation: moveh2afi 6s linear infinite;
+}
+.h3afi {
+  position: absolute;
+  margin-top: 25.2vw;
+  margin-left: 18vw;
+  word-spacing: 5vw;
+  animation: moveh3afi 10s linear infinite;
+}
+.scr2afi {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 54.2vw;
+}
+.zin1 {
+  position: absolute;
+  width: 20.5vw;
+  margin-left: -2.6vw;
+  margin-top: 4.1vw;
+  animation: movezin1 5s linear infinite;
+}
+.zin2 {
+  position: absolute;
+  width: 20.5vw;
+  margin-left: 54.3vw;
+  margin-top: 5.9vw;
+  animation: movezin1 7s linear infinite;
+}
+.zin3 {
+  position: absolute;
+  width: 20.5vw;
+  margin-left: 38vw;
+  margin-top: 29.4vw;
+  animation: movezin1 2s linear infinite;
+}
+.zin4 {
+  position: absolute;
+  width: 20.5vw;
+  margin-left: 82.3vw;
+  margin-top: 39.2vw;
+  animation: movezin1 8s linear infinite;
+}
+.zin5 {
+  position: absolute;
+  width: 20.5vw;
+  margin-left: 25.8vw;
+  margin-top: 0.7vw;
+  animation: movezin1 5s linear infinite;
+}
+.zin6 {
+  position: absolute;
+  width: 20.5vw;
+  margin-left: 82.3vw;
+  margin-top: 2.3vw;
+  animation: movezin1 4s linear infinite;
+}
+.zin7 {
+  position: absolute;
+  width: 20.5vw;
+  margin-left: 9.4vw;
+  margin-top: 20.9vw;
+  animation: movezin1 9s linear infinite;
+}
+.zin8 {
+  position: absolute;
+  width: 20.5vw;
+  margin-left: 62.2vw;
+  margin-top: 23.5vw;
+  animation: movezin1 3s linear infinite;
+}
+.zin9 {
+  position: absolute;
+  width: 20.5vw;
+  margin-left: -2.8vw;
+  margin-top: 37vw;
+  animation: movezin1 8s linear infinite;
+}
+.scr3afi {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 59vw;
+}
+.page1 {
+  position: absolute;
+  width: 77.8vw;
+  margin-left: 11vw;
+  margin-top: 3.6vw;
+}
+
+#container {
+  position: relative;
+  width: 77.8vw;
+  height: 50vw;
+  overflow: hidden;
+  margin-left: 11vw;
+  margin-top: -2.3vw;
+}
+
+.card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transform: scale(0.9);
+  transition: all 0.4s ease-in-out;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  object-fit: cover;
+}
+
+.card.show {
+  opacity: 1;
+  transform: scale(1);
+}
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
 }
