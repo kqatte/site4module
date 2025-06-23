@@ -2,20 +2,25 @@ body {
   font-family: Helvetica;
   background-color: #f7f7f7;
   position: relative;
-  /* background-image: url(../images/афиша\ итог.jpg); */
+  background-image: url(../images/магазин\ итог.jpg);
   width: 100%;
-  /* height: 3517px;
+  height: 4102px;
   z-index: -10000;
-  opacity: 0.5; */
+  opacity: 0.5;
 }
 
 p {
   color: #3d3d3d;
   font-size: 1.25vw;
+  line-height: 115%;
 }
 h1 {
   color: #3d3d3d;
   font-size: 6.25vw;
+}
+h2 {
+  color: #3d3d3d;
+  font-size: 2.09vw;
 }
 section {
   width: 100vw;
@@ -27,13 +32,13 @@ section {
 .navbar {
   height: 5.27vw;
   position: fixed;
-  background-color: #ececec;
+  background-color: #f1f1f1;
   opacity: 0.9;
   z-index: 10000;
 }
 .logomenu {
   position: absolute;
-  color: #3d3d3d;
+  color: #740606;
   font-weight: bold;
   font-size: 1.4vw;
   margin-top: 2vw;
@@ -130,7 +135,6 @@ section {
   position: absolute;
   margin-top: 22.6vw;
   margin-left: 24.3vw;
-  line-height: 115%;
 }
 .shimgmenu {
   position: absolute;
@@ -208,6 +212,7 @@ section {
   overflow: hidden;
   width: 100vw;
   height: 22.9vw;
+  margin-top: -3vw;
 }
 .onlpodval {
   position: absolute;
@@ -267,7 +272,7 @@ section {
 }
 .logopodval {
   position: absolute;
-  color: #3d3d3d;
+  color: #740606;
   font-weight: bold;
   font-size: 1.4vw;
   margin-top: 19vw;
@@ -378,7 +383,7 @@ section {
   position: relative;
   overflow: hidden;
   width: 100vw;
-  height: 59vw;
+  height: 53vw;
 }
 .page1 {
   position: absolute;
@@ -386,37 +391,175 @@ section {
   margin-left: 11vw;
   margin-top: 3.6vw;
 }
-
-#container {
-  position: relative;
+#containerafi1 {
+  position: absolute;
+  margin-left: 11vw;
+  margin-top: 3.6vw;
   width: 77.8vw;
   height: 50vw;
   overflow: hidden;
-  margin-left: 11vw;
-  margin-top: -2.3vw;
 }
-
 .card {
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   opacity: 0;
   transform: scale(0.9);
   transition: all 0.4s ease-in-out;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   object-fit: cover;
 }
-
 .card.show {
   opacity: 1;
   transform: scale(1);
 }
-button {
-  margin-top: 20px;
-  padding: 10px 20px;
-  font-size: 16px;
+.scr4afi {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-top: 2vw;
+}
+#buttonafi1 {
+  width: 13.5vw;
+  transition: transform 0.3s ease;
+}
+
+/* карточка товара 1 */
+.scr1card1 {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 60.5vw;
+}
+.card1tshirt {
+  position: absolute;
+  margin-left: 1.8vw;
+  margin-top: 8.55vw;
+  width: 47.84vw;
+}
+.card1h2 {
+  position: absolute;
+  margin-top: 8.75vw;
+  margin-left: 58.4vw;
+}
+.card1p1 {
+  position: absolute;
+  margin-left: 58.4vw;
+  margin-top: 12.8vw;
+}
+#card1size1 {
+  position: absolute;
+  margin-left: 58.4vw;
+  margin-top: 17.3vw;
   cursor: pointer;
+  transition: transform 0.3s ease;
+  user-select: none;
+}
+#card1size2 {
+  position: absolute;
+  margin-left: 63.8vw;
+  margin-top: 17.3vw;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+#card1size3 {
+  position: absolute;
+  margin-left: 67.8vw;
+  margin-top: 17.3vw;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+#card1size4 {
+  position: absolute;
+  margin-left: 72.1vw;
+  margin-top: 17.3vw;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+#card1size5 {
+  position: absolute;
+  margin-left: 75.8vw;
+  margin-top: 17.3vw;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.card1price {
+  position: absolute;
+  margin-left: 58.4vw;
+  margin-top: 25.9vw;
+}
+.buttoncard1 {
+  position: absolute;
+  margin-top: 29.4vw;
+  margin-left: 58.4vw;
+  width: 13.5vw;
+  transition: transform 0.3s ease;
+}
+.scr2card1 {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+  width: 100vw;
+  height: 4vw;
+}
+.card1h22 {
+  margin-left: 2vw;
+  margin-top: 0.5vw;
+}
+.scr3card1 {
+  position: relative;
+  display: flex;
+  margin-top: 0.76vw;
+  justify-content: space-around;
+  gap: 2.7vw;
+  overflow: hidden;
+  width: 100vw;
+  height: 34vw;
+}
+.card1sug1,
+.card1sug2,
+.card1sug3 {
+  transition: transform 0.3s ease;
+}
+/* для анимации выбора размера */
+.toggle-color {
+  color: #3d3d3d;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.color-active {
+  color: #740606;
+}
+
+/* страница магазина */
+.scr1shop {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 97vw;
+}
+.tshirt1 {
+  position: absolute;
+  margin-top: 9.7vw;
+  margin-left: 36vw;
+}
+.plastinka1 {
+  position: absolute;
+  margin-top: 27.5vw;
+  margin-left: 1.9vw;
+}
+.shopper1 {
+  position: absolute;
+  margin-top: 24.9vw;
+  margin-left: 70.3vw;
+}
+.tshirt2 {
+  position: absolute;
+  margin-top: 69.7vw;
+  margin-left: 13.8vw;
+}
+.book1 {
+  position: absolute;
+  margin-top: 62vw;
+  margin-left: 58.4vw;
 }

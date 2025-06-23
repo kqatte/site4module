@@ -156,7 +156,7 @@
       rotate(-360deg);
   }
 }
-/* анимация остановки и затемнения картинок  */
+/* главный экран остановка и затемнение */
 .shimgmenu:hover {
   animation-play-state: paused;
   filter: brightness(70%);
@@ -381,7 +381,6 @@
 }
 
 /* афиша премьера текст */
-
 @keyframes moveh1afi {
   0% {
     transform: translate(0%, 0%) rotate(0deg) translate(3vw, 0vw) rotate(0deg);
@@ -445,44 +444,7 @@
       rotate(-360deg);
   }
 }
-/* @keyframes moveh1afi {
-  0% {
-    transform: translateX(0vw);
-  }
-  50% {
-    transform: translateX(26.5vw);
-  }
 
-  100% {
-    transform: translateX(0vw);
-  }
-}
-@keyframes moveh2afi {
-  0% {
-    transform: translateX(0vw);
-  }
-  50% {
-    transform: translateX(-55.5vw);
-  }
-
-  100% {
-    transform: translateX(0vw);
-  }
-}
-@keyframes moveh3afi {
-  0% {
-    transform: translateX(0vw);
-  }
-  33% {
-    transform: translateX(24vw);
-  }
-  66% {
-    transform: translateX(-17vw);
-  }
-  100% {
-    transform: translateX(0vw);
-  }
-} */
 /* афиша зины */
 @keyframes movezin1 {
   0% {
@@ -494,4 +456,54 @@
   100% {
     opacity: 100%;
   }
+}
+
+/* афиша кнопка */
+#buttonafi1:hover {
+  transform: scale(1.02);
+  filter: brightness(70%);
+  cursor: pointer;
+}
+/* карточка товара */
+.buttoncard1:hover {
+  transform: scale(1.02);
+  filter: brightness(70%);
+  cursor: pointer;
+}
+#card1size1:hover {
+  transform: scale(1.1);
+  color: #740606;
+  cursor: pointer;
+}
+#card1size2:hover {
+  transform: scale(1.1);
+  color: #740606;
+  cursor: pointer;
+}
+#card1size3:hover {
+  transform: scale(1.1);
+  color: #740606;
+  cursor: pointer;
+}
+#card1size4:hover {
+  transform: scale(1.1);
+  color: #740606;
+  cursor: pointer;
+}
+#card1size5:hover {
+  transform: scale(1.1);
+  color: #740606;
+  cursor: pointer;
+}
+.card1sug1:hover {
+  transform: scale(1.02);
+  filter: brightness(70%);
+}
+.card1sug2:hover {
+  transform: scale(1.02);
+  filter: brightness(70%);
+}
+.card1sug3:hover {
+  transform: scale(1.02);
+  filter: brightness(70%);
 }
