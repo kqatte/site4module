@@ -2,11 +2,11 @@ body {
   font-family: Helvetica;
   background-color: #f7f7f7;
   position: relative;
-  background-image: url(../images/магазин\ итог.jpg);
+  /* background-image: url(../images/магазин\ итог.jpg); */
   width: 100%;
-  height: 4102px;
+  /* height: 4102px;
   z-index: -10000;
-  opacity: 0.5;
+  opacity: 0.5; */
 }
 
 p {
@@ -424,24 +424,24 @@ section {
 }
 
 /* карточка товара 1 */
-.scr1card1 {
+.scr1card {
   position: relative;
   overflow: hidden;
   width: 100vw;
   height: 60.5vw;
 }
-.card1tshirt {
+.cardphoto {
   position: absolute;
   margin-left: 1.8vw;
   margin-top: 8.55vw;
   width: 47.84vw;
 }
-.card1h2 {
+.cardmaintext {
   position: absolute;
   margin-top: 8.75vw;
   margin-left: 58.4vw;
 }
-.card1p1 {
+.cardtext {
   position: absolute;
   margin-left: 58.4vw;
   margin-top: 12.8vw;
@@ -482,19 +482,19 @@ section {
   cursor: pointer;
   transition: transform 0.3s ease;
 }
-.card1price {
+.cardprice {
   position: absolute;
   margin-left: 58.4vw;
   margin-top: 25.9vw;
 }
-.buttoncard1 {
+.buttoncard {
   position: absolute;
   margin-top: 29.4vw;
   margin-left: 58.4vw;
   width: 13.5vw;
   transition: transform 0.3s ease;
 }
-.scr2card1 {
+.scr2card {
   position: relative;
   display: flex;
   justify-content: flex-start;
@@ -502,11 +502,11 @@ section {
   width: 100vw;
   height: 4vw;
 }
-.card1h22 {
+.cardh22 {
   margin-left: 2vw;
   margin-top: 0.5vw;
 }
-.scr3card1 {
+.scr3card {
   position: relative;
   display: flex;
   margin-top: 0.76vw;
@@ -516,9 +516,9 @@ section {
   width: 100vw;
   height: 34vw;
 }
-.card1sug1,
-.card1sug2,
-.card1sug3 {
+.cardsug1,
+.cardsug2,
+.cardsug3 {
   transition: transform 0.3s ease;
 }
 /* для анимации выбора размера */
@@ -536,30 +536,110 @@ section {
   position: relative;
   overflow: hidden;
   width: 100vw;
-  height: 97vw;
+  height: 100vw;
 }
 .tshirt1 {
   position: absolute;
   margin-top: 9.7vw;
   margin-left: 36vw;
+  animation: move1sh 9s linear infinite;
+  transition: transform 0.3s ease;
 }
 .plastinka1 {
   position: absolute;
   margin-top: 27.5vw;
   margin-left: 1.9vw;
+  animation: move2sh 6s linear infinite;
+  transition: transform 0.3s ease;
 }
 .shopper1 {
   position: absolute;
   margin-top: 24.9vw;
   margin-left: 70.3vw;
+  animation: move3sh 7s linear infinite;
+  transition: transform 0.3s ease;
 }
 .tshirt2 {
   position: absolute;
   margin-top: 69.7vw;
   margin-left: 13.8vw;
+  animation: move4sh 6s linear infinite;
+  transition: transform 0.3s ease;
 }
 .book1 {
   position: absolute;
   margin-top: 62vw;
   margin-left: 58.4vw;
+  animation: move5sh 8s linear infinite;
+  transition: transform 0.3s ease;
+}
+.scr2shop {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+  width: 100vw;
+  height: 14.6vw;
+}
+.shp1 {
+  margin-left: 1.9vw;
+  margin-top: 8.5vw;
+}
+.scr3shop {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  width: 100vw;
+  height: 37.5vw;
+}
+.certificate {
+  width: 96.25vw;
+  transition: transform 0.3s ease;
+}
+.scr4shop {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 109vw;
+}
+.cap1 {
+  position: absolute;
+  margin-top: 10.6vw;
+  margin-left: 36vw;
+  animation: move6sh 8s linear infinite;
+  transition: transform 0.3s ease;
+  animation: move1sh 8s linear infinite;
+}
+.stickers1 {
+  position: absolute;
+  margin-top: 30.3vw;
+  margin-left: 1.9vw;
+  animation: move7sh 8s linear infinite;
+  transition: transform 0.3s ease;
+  animation: move2sh 7s linear infinite;
+}
+.shopper2 {
+  position: absolute;
+  margin-top: 33.5vw;
+  margin-left: 70.25vw;
+  animation: move8sh 8s linear infinite;
+  transition: transform 0.3s ease;
+  animation: move3sh 9s linear infinite;
+}
+.tshirt3 {
+  position: absolute;
+  margin-top: 69.7vw;
+  margin-left: 13.8vw;
+  animation: move9sh 8s linear infinite;
+  transition: transform 0.3s ease;
+  animation: move4sh 6s linear infinite;
+}
+.case1 {
+  position: absolute;
+  margin-top: 75.8vw;
+  margin-left: 58.4vw;
+  animation: move10sh 8s linear infinite;
+  transition: transform 0.3s ease;
+  animation: move5sh 8s linear infinite;
 }

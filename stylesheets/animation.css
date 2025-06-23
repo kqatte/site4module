@@ -332,7 +332,6 @@
       rotate(-360deg);
   }
 }
-
 @keyframes movepodval8 {
   0% {
     transform: translate(0%, 0%) rotate(0deg) translate(-1vw, 0vw) rotate(0deg);
@@ -465,7 +464,7 @@
   cursor: pointer;
 }
 /* карточка товара */
-.buttoncard1:hover {
+.buttoncard:hover {
   transform: scale(1.02);
   filter: brightness(70%);
   cursor: pointer;
@@ -495,15 +494,166 @@
   color: #740606;
   cursor: pointer;
 }
-.card1sug1:hover {
+.cardsug1:hover {
   transform: scale(1.02);
   filter: brightness(70%);
 }
-.card1sug2:hover {
+.cardsug2:hover {
   transform: scale(1.02);
   filter: brightness(70%);
 }
-.card1sug3:hover {
+.cardsug3:hover {
   transform: scale(1.02);
+  filter: brightness(70%);
+}
+
+/* страница магазина */
+@keyframes move1sh {
+  0% {
+    transform: translate(0%, 0%) rotate(0deg) translate(-3vw, 0vw) rotate(0deg);
+  }
+  25% {
+    transform: translate(0%, 0%) rotate(90deg) translate(0vw, -2vw)
+      rotate(-90deg);
+  }
+  50% {
+    transform: translate(0%, 0%) rotate(180deg) translate(-1vw, 0vw)
+      rotate(-180deg);
+  }
+  75% {
+    transform: translate(0%, 0%) rotate(270deg) translate(0vw, 0vw)
+      rotate(-270deg);
+  }
+  100% {
+    transform: translate(0%, 0%) rotate(360deg) translate(-3vw, 0vw)
+      rotate(-360deg);
+  }
+}
+@keyframes move2sh {
+  0% {
+    transform: translate(0%, 0%) rotate(0deg) translate(2vw, 0vw) rotate(0deg);
+  }
+  25% {
+    transform: translate(0%, 0%) rotate(90deg) translate(0vw, 1vw)
+      rotate(-90deg);
+  }
+  50% {
+    transform: translate(0%, 0%) rotate(180deg) translate(-1vw, 0vw)
+      rotate(-180deg);
+  }
+  75% {
+    transform: translate(0%, 0%) rotate(270deg) translate(0vw, -1vw)
+      rotate(-270deg);
+  }
+  100% {
+    transform: translate(0%, 0%) rotate(360deg) translate(2vw, 0vw)
+      rotate(-360deg);
+  }
+}
+@keyframes move3sh {
+  0% {
+    transform: translate(0%, 0%) rotate(0deg) translate(-2vw, -2vw) rotate(0deg);
+  }
+  25% {
+    transform: translate(0%, 0%) rotate(90deg) translate(0vw, 1vw)
+      rotate(-90deg);
+  }
+  50% {
+    transform: translate(0%, 0%) rotate(180deg) translate(1vw, 0vw)
+      rotate(-180deg);
+  }
+  75% {
+    transform: translate(0%, 0%) rotate(270deg) translate(0vw, -1vw)
+      rotate(-270deg);
+  }
+  100% {
+    transform: translate(0%, 0%) rotate(360deg) translate(-2vw, -2vw)
+      rotate(-360deg);
+  }
+}
+@keyframes move4sh {
+  0% {
+    transform: translate(0%, 0%) rotate(0deg) translate(5vw, -5vw) rotate(0deg);
+  }
+  25% {
+    transform: translate(0%, 0%) rotate(90deg) translate(0vw, -2vw)
+      rotate(-90deg);
+  }
+  50% {
+    transform: translate(0%, 0%) rotate(180deg) translate(-1vw, 0vw)
+      rotate(-180deg);
+  }
+  75% {
+    transform: translate(0%, 0%) rotate(270deg) translate(0vw, 0vw)
+      rotate(-270deg);
+  }
+  100% {
+    transform: translate(0%, 0%) rotate(360deg) translate(5vw, -5vw)
+      rotate(-360deg);
+  }
+}
+@keyframes move5sh {
+  0% {
+    transform: translate(0%, 0%) rotate(0deg) translate(-3vw, -3vw) rotate(0deg);
+  }
+  25% {
+    transform: translate(0%, 0%) rotate(90deg) translate(0vw, -2vw)
+      rotate(-90deg);
+  }
+  50% {
+    transform: translate(0%, 0%) rotate(180deg) translate(-1vw, 0vw)
+      rotate(-180deg);
+  }
+  75% {
+    transform: translate(0%, 0%) rotate(270deg) translate(0vw, 0vw)
+      rotate(-270deg);
+  }
+  100% {
+    transform: translate(0%, 0%) rotate(360deg) translate(-3vw, -3vw)
+      rotate(-360deg);
+  }
+}
+.case1:hover {
+  animation-play-state: paused;
+  filter: brightness(70%);
+}
+.tshirt1:hover {
+  animation-play-state: paused;
+  filter: brightness(70%);
+}
+.tshirt2:hover {
+  animation-play-state: paused;
+  filter: brightness(70%);
+}
+.tshirt3:hover {
+  animation-play-state: paused;
+  filter: brightness(70%);
+}
+.book1:hover {
+  animation-play-state: paused;
+  filter: brightness(70%);
+}
+.plastinka1:hover {
+  animation-play-state: paused;
+  filter: brightness(70%);
+}
+.shopper1:hover {
+  animation-play-state: paused;
+  filter: brightness(70%);
+}
+.shopper2:hover {
+  animation-play-state: paused;
+  filter: brightness(70%);
+}
+.stickers1:hover {
+  animation-play-state: paused;
+  filter: brightness(70%);
+}
+.cap1:hover {
+  animation-play-state: paused;
+  filter: brightness(70%);
+}
+.certificate:hover {
+  animation-play-state: paused;
   filter: brightness(70%);
 }
