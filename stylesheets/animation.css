@@ -382,35 +382,35 @@
 /* афиша премьера текст */
 @keyframes moveh1afi {
   0% {
-    transform: translate(0%, 0%) rotate(0deg) translate(3vw, 0vw) rotate(0deg);
+    transform: translate(0%, 0%) rotate(0deg) translate(0vw, 0vw) rotate(0deg);
   }
   25% {
-    transform: translate(0%, 0%) rotate(90deg) translate(0vw, 2vw)
+    transform: translate(0%, 0%) rotate(90deg) translate(0vw, 1vw)
       rotate(-90deg);
   }
   50% {
-    transform: translate(0%, 0%) rotate(180deg) translate(1vw, 0vw)
+    transform: translate(0%, 0%) rotate(180deg) translate(0vw, 0vw)
       rotate(-180deg);
   }
   75% {
-    transform: translate(0%, 0%) rotate(270deg) translate(0vw, -2vw)
+    transform: translate(0%, 0%) rotate(270deg) translate(0vw, -1vw)
       rotate(-270deg);
   }
   100% {
-    transform: translate(0%, 0%) rotate(360deg) translate(3vw, 0vw)
+    transform: translate(0%, 0%) rotate(360deg) translate(0vw, 0vw)
       rotate(-360deg);
   }
 }
 @keyframes moveh2afi {
   0% {
-    transform: translate(0%, 0%) rotate(0deg) translate(-3vw, 0vw) rotate(0deg);
+    transform: translate(0%, 0%) rotate(0deg) translate(0vw, 0vw) rotate(0deg);
   }
   25% {
     transform: translate(0%, 0%) rotate(90deg) translate(0vw, 2vw)
       rotate(-90deg);
   }
   50% {
-    transform: translate(0%, 0%) rotate(180deg) translate(2vw, 0vw)
+    transform: translate(0%, 0%) rotate(180deg) translate(0vw, 0vw)
       rotate(-180deg);
   }
   75% {
@@ -418,28 +418,28 @@
       rotate(-270deg);
   }
   100% {
-    transform: translate(0%, 0%) rotate(360deg) translate(-3vw, 0vw)
+    transform: translate(0%, 0%) rotate(360deg) translate(0vw, 0vw)
       rotate(-360deg);
   }
 }
 @keyframes moveh3afi {
   0% {
-    transform: translate(0%, 0%) rotate(0deg) translate(-3vw, 0vw) rotate(0deg);
+    transform: translate(0%, 0%) rotate(0deg) translate(0vw, 0vw) rotate(0deg);
   }
   25% {
     transform: translate(0%, 0%) rotate(90deg) translate(0vw, -2vw)
       rotate(-90deg);
   }
   50% {
-    transform: translate(0%, 0%) rotate(180deg) translate(-1vw, 0vw)
+    transform: translate(0%, 0%) rotate(180deg) translate(0vw, 0vw)
       rotate(-180deg);
   }
   75% {
-    transform: translate(0%, 0%) rotate(270deg) translate(0vw, 0vw)
+    transform: translate(0%, 0%) rotate(270deg) translate(0vw, 2vw)
       rotate(-270deg);
   }
   100% {
-    transform: translate(0%, 0%) rotate(360deg) translate(-3vw, 0vw)
+    transform: translate(0%, 0%) rotate(360deg) translate(0vw, 0vw)
       rotate(-360deg);
   }
 }
@@ -462,6 +462,43 @@
   transform: scale(1.02);
   filter: brightness(70%);
   cursor: pointer;
+}
+
+/* афиша плакаты */
+.poster1:hover {
+  transform: scale(1.1);
+  z-index: 10000;
+  filter: brightness(70%);
+}
+.poster2:hover {
+  transform: scale(1.1);
+  z-index: 10000;
+  filter: brightness(70%);
+}
+.poster3:hover {
+  transform: scale(1.1);
+  z-index: 10000;
+  filter: brightness(70%);
+}
+.poster4:hover {
+  transform: scale(1.1);
+  z-index: 10000;
+  filter: brightness(70%);
+}
+.poster5:hover {
+  transform: scale(1.1);
+  z-index: 10000;
+  filter: brightness(70%);
+}
+.poster6:hover {
+  transform: scale(1.1);
+  z-index: 10000;
+  filter: brightness(70%);
+}
+.poster7:hover {
+  transform: scale(1.1);
+  z-index: 10000;
+  filter: brightness(70%);
 }
 /* карточка товара */
 .buttoncard:hover {
@@ -656,4 +693,209 @@
 .certificate:hover {
   animation-play-state: paused;
   filter: brightness(70%);
+}
+
+/* о нас */
+.facade:hover {
+  background-image: url(../images/facadecol.svg);
+  width: 31.5vw;
+  height: 25.9vw;
+  animation-play-state: paused;
+}
+.silent:hover {
+  background-image: url(../images/silentcol.svg);
+  width: 23.5vw;
+  height: 31.7vw;
+  animation-play-state: paused;
+}
+.dark:hover {
+  background-image: url(../images/darkcol.svg);
+  width: 31.5vw;
+  height: 25.9vw;
+  animation-play-state: paused;
+}
+.scene:hover {
+  background-image: url(../images/scenecol.svg);
+  width: 31.5vw;
+  height: 25.9vw;
+  animation-play-state: paused;
+}
+.texture:hover {
+  background-image: url(../images/texturecol.svg);
+  width: 23.5vw;
+  height: 31.7vw;
+  animation-play-state: paused;
+}
+@keyframes move1abus {
+  0% {
+    transform: translate(0%, 0%) rotate(0deg) translate(-3vw, 0vw) rotate(0deg);
+  }
+  25% {
+    transform: translate(0%, 0%) rotate(90deg) translate(0vw, -2vw)
+      rotate(-90deg);
+  }
+  50% {
+    transform: translate(0%, 0%) rotate(180deg) translate(-1vw, 0vw)
+      rotate(-180deg);
+  }
+  75% {
+    transform: translate(0%, 0%) rotate(270deg) translate(0vw, 0vw)
+      rotate(-270deg);
+  }
+  100% {
+    transform: translate(0%, 0%) rotate(360deg) translate(-3vw, 0vw)
+      rotate(-360deg);
+  }
+}
+@keyframes move2abus {
+  0% {
+    transform: translate(0%, 0%) rotate(0deg) translate(2vw, 0vw) rotate(0deg);
+  }
+  25% {
+    transform: translate(0%, 0%) rotate(90deg) translate(0vw, 1vw)
+      rotate(-90deg);
+  }
+  50% {
+    transform: translate(0%, 0%) rotate(180deg) translate(-1vw, 0vw)
+      rotate(-180deg);
+  }
+  75% {
+    transform: translate(0%, 0%) rotate(270deg) translate(0vw, -1vw)
+      rotate(-270deg);
+  }
+  100% {
+    transform: translate(0%, 0%) rotate(360deg) translate(2vw, 0vw)
+      rotate(-360deg);
+  }
+}
+@keyframes move3abus {
+  0% {
+    transform: translate(0%, 0%) rotate(0deg) translate(2vw, 2vw) rotate(0deg);
+  }
+  25% {
+    transform: translate(0%, 0%) rotate(90deg) translate(0vw, 1vw)
+      rotate(-90deg);
+  }
+  50% {
+    transform: translate(0%, 0%) rotate(180deg) translate(-1vw, 0vw)
+      rotate(-180deg);
+  }
+  75% {
+    transform: translate(0%, 0%) rotate(270deg) translate(0vw, -1vw)
+      rotate(-270deg);
+  }
+  100% {
+    transform: translate(0%, 0%) rotate(360deg) translate(2vw, 2vw)
+      rotate(-360deg);
+  }
+}
+@keyframes move4abus {
+  0% {
+    transform: translate(0%, 0%) rotate(0deg) translate(2vw, -1vw) rotate(0deg);
+  }
+  25% {
+    transform: translate(0%, 0%) rotate(90deg) translate(0vw, 0vw)
+      rotate(-90deg);
+  }
+  50% {
+    transform: translate(0%, 0%) rotate(180deg) translate(-1vw, 0vw)
+      rotate(-180deg);
+  }
+  75% {
+    transform: translate(0%, 0%) rotate(270deg) translate(0vw, 0vw)
+      rotate(-270deg);
+  }
+  100% {
+    transform: translate(0%, 0%) rotate(360deg) translate(2vw, -1vw)
+      rotate(-360deg);
+  }
+}
+@keyframes move5abus {
+  0% {
+    transform: translate(0%, 0%) rotate(0deg) translate(-2vw, -2vw) rotate(0deg);
+  }
+  25% {
+    transform: translate(0%, 0%) rotate(90deg) translate(0vw, 0vw)
+      rotate(-90deg);
+  }
+  50% {
+    transform: translate(0%, 0%) rotate(180deg) translate(-1vw, 0vw)
+      rotate(-180deg);
+  }
+  75% {
+    transform: translate(0%, 0%) rotate(270deg) translate(0vw, 0vw)
+      rotate(-270deg);
+  }
+  100% {
+    transform: translate(0%, 0%) rotate(360deg) translate(-2vw, -2vw)
+      rotate(-360deg);
+  }
+}
+@keyframes moveh1abus {
+  0% {
+    transform: translate(0%, 0%) rotate(0deg) translate(0vw, 0vw) rotate(0deg);
+  }
+  25% {
+    transform: translate(0%, 0%) rotate(90deg) translate(0vw, -2vw)
+      rotate(-90deg);
+  }
+  50% {
+    transform: translate(0%, 0%) rotate(180deg) translate(0vw, 0vw)
+      rotate(-180deg);
+  }
+  75% {
+    transform: translate(0%, 0%) rotate(270deg) translate(0vw, 2vw)
+      rotate(-270deg);
+  }
+  100% {
+    transform: translate(0%, 0%) rotate(360deg) translate(0vw, 0vw)
+      rotate(-360deg);
+  }
+}
+@keyframes moveh2abus {
+  0% {
+    transform: translate(0%, 0%) rotate(0deg) translate(0vw, 0vw) rotate(0deg);
+  }
+  25% {
+    transform: translate(0%, 0%) rotate(90deg) translate(0vw, 2vw)
+      rotate(-90deg);
+  }
+  50% {
+    transform: translate(0%, 0%) rotate(180deg) translate(0vw, 0vw)
+      rotate(-180deg);
+  }
+  75% {
+    transform: translate(0%, 0%) rotate(270deg) translate(0vw, -2vw)
+      rotate(-270deg);
+  }
+  100% {
+    transform: translate(0%, 0%) rotate(360deg) translate(0vw, 0vw)
+      rotate(-360deg);
+  }
+}
+@keyframes moveh3abus {
+  0% {
+    transform: translate(0%, 0%) rotate(0deg) translate(0vw, 0vw) rotate(0deg);
+  }
+  25% {
+    transform: translate(0%, 0%) rotate(90deg) translate(0vw, -2vw)
+      rotate(-90deg);
+  }
+  50% {
+    transform: translate(0%, 0%) rotate(180deg) translate(0vw, 0vw)
+      rotate(-180deg);
+  }
+  75% {
+    transform: translate(0%, 0%) rotate(270deg) translate(0vw, 2vw)
+      rotate(-270deg);
+  }
+  100% {
+    transform: translate(0%, 0%) rotate(360deg) translate(0vw, 0vw)
+      rotate(-360deg);
+  }
+}
+.abusbutton:hover {
+  transform: scale(1.02);
+  filter: brightness(70%);
+  cursor: pointer;
 }

@@ -2,9 +2,9 @@ body {
   font-family: Helvetica;
   background-color: #f7f7f7;
   position: relative;
-  /* background-image: url(../images/магазин\ итог.jpg); */
+  /* background-image: url(../images/о\ нас\ итог.jpg); */
   width: 100%;
-  /* height: 4102px;
+  /* height: 2991px;
   z-index: -10000;
   opacity: 0.5; */
 }
@@ -17,6 +17,7 @@ p {
 h1 {
   color: #3d3d3d;
   font-size: 6.25vw;
+  word-spacing: 5vw;
 }
 h2 {
   color: #3d3d3d;
@@ -293,21 +294,18 @@ section {
   position: absolute;
   margin-top: 8.7vw;
   margin-left: 1.9vw;
-  word-spacing: 5vw;
   animation: moveh1afi 8s linear infinite;
 }
 .h2afi {
   position: absolute;
   margin-top: 17vw;
   margin-left: 56.9vw;
-  word-spacing: 5vw;
   animation: moveh2afi 6s linear infinite;
 }
 .h3afi {
   position: absolute;
   margin-top: 25.2vw;
   margin-left: 18vw;
-  word-spacing: 5vw;
   animation: moveh3afi 10s linear infinite;
 }
 .scr2afi {
@@ -422,8 +420,72 @@ section {
   width: 13.5vw;
   transition: transform 0.3s ease;
 }
-
-/* карточка товара 1 */
+.scr5afi {
+  height: 9vw;
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+}
+.p1afi {
+  margin-left: 1.9vw;
+  margin-top: 5.4vw;
+}
+.scr6afi {
+  height: 57vw;
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+}
+.poster1 {
+  position: absolute;
+  width: 23.7vw;
+  margin-left: 11.5vw;
+  margin-top: 3.9vw;
+  transition: transform 0.3s ease;
+}
+.poster2 {
+  position: absolute;
+  width: 23.7vw;
+  margin-left: 1.9vw;
+  margin-top: 14.5vw;
+  transition: transform 0.3s ease;
+}
+.poster3 {
+  position: absolute;
+  width: 23.7vw;
+  margin-left: 55.1vw;
+  margin-top: 1.9vw;
+  transition: transform 0.3s ease;
+}
+.poster4 {
+  position: absolute;
+  width: 23.7vw;
+  margin-left: 33.9vw;
+  margin-top: 9.8vw;
+  transition: transform 0.3s ease;
+}
+.poster5 {
+  position: absolute;
+  width: 23.7vw;
+  margin-left: 74.4vw;
+  margin-top: 12.5vw;
+  transition: transform 0.3s ease;
+}
+.poster6 {
+  position: absolute;
+  width: 23.7vw;
+  margin-left: 27.4vw;
+  margin-top: 22.3vw;
+  transition: transform 0.3s ease;
+}
+.poster7 {
+  position: absolute;
+  width: 23.7vw;
+  margin-left: 53.5vw;
+  margin-top: 20.4vw;
+  transition: transform 0.3s ease;
+}
+/* карточка товара */
 .scr1card {
   position: relative;
   overflow: hidden;
@@ -642,4 +704,135 @@ section {
   animation: move10sh 8s linear infinite;
   transition: transform 0.3s ease;
   animation: move5sh 8s linear infinite;
+}
+
+/* о нас */
+.scr1abus {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 90vw;
+}
+.p1abus {
+  position: absolute;
+  margin-top: 10vw;
+  margin-left: 1.9vw;
+}
+.facade {
+  background-image: url(../images/facade.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 31.5vw;
+  height: 25.9vw;
+  margin-left: 58.4vw;
+  margin-top: 10vw;
+  animation: move1abus 9s linear infinite;
+}
+.silent {
+  background-image: url(../images/silent.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 23.5vw;
+  height: 31.7vw;
+  margin-left: 5.9vw;
+  margin-top: 22.2vw;
+  animation: move2abus 11s linear infinite;
+}
+.dark {
+  background-image: url(../images/dark.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 31.5vw;
+  height: 25.9vw;
+  margin-left: 34.2vw;
+  margin-top: 36.2vw;
+  animation: move3abus 8s linear infinite;
+}
+.scene {
+  background-image: url(../images/scene.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 31.5vw;
+  height: 25.9vw;
+  margin-left: 10vw;
+  margin-top: 63vw;
+  animation: move4abus 5s linear infinite;
+}
+.texture {
+  background-image: url(../images/texture.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 23.5vw;
+  height: 31.7vw;
+  margin-left: 70.5vw;
+  margin-top: 48.5vw;
+  animation: move5abus 10s linear infinite;
+}
+.scr2abus {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 27.7vw;
+}
+.h1abus {
+  position: absolute;
+  margin-top: 0.7vw;
+  margin-left: 1.4vw;
+  animation: moveh1abus 7s linear infinite;
+}
+.h2abus {
+  position: absolute;
+  margin-top: 9.4vw;
+  margin-left: 22.1vw;
+  animation: moveh2abus 11s linear infinite;
+}
+.h3abus {
+  position: absolute;
+  margin-top: 18.2vw;
+  margin-left: 4vw;
+  animation: moveh3abus 9s linear infinite;
+}
+.scr3abus {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+  width: 100vw;
+  height: 13.9vw;
+}
+.p2abus {
+  position: absolute;
+  margin-top: 3.7vw;
+  margin-left: 1.9vw;
+}
+.scr4abus {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  width: 100vw;
+  height: 50.1vw;
+}
+.preview1 {
+  position: relative;
+  width: 76.4vw;
+  overflow: hidden;
+}
+.scr5abus {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  width: 100vw;
+  height: 6.25vw;
+}
+.abusbutton {
+  position: relative;
+  width: 13.5vw;
+  transition: transform 0.3s ease;
 }
