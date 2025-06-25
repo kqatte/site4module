@@ -382,65 +382,38 @@
 /* афиша премьера текст */
 @keyframes moveh1afi {
   0% {
-    transform: translate(0%, 0%) rotate(0deg) translate(0vw, 0vw) rotate(0deg);
-  }
-  25% {
-    transform: translate(0%, 0%) rotate(90deg) translate(0vw, 1vw)
-      rotate(-90deg);
+    transform: translateX(0vw);
   }
   50% {
-    transform: translate(0%, 0%) rotate(180deg) translate(0vw, 0vw)
-      rotate(-180deg);
-  }
-  75% {
-    transform: translate(0%, 0%) rotate(270deg) translate(0vw, -1vw)
-      rotate(-270deg);
+    transform: translateX(5vw);
   }
   100% {
-    transform: translate(0%, 0%) rotate(360deg) translate(0vw, 0vw)
-      rotate(-360deg);
+    transform: translateX(0vw);
   }
 }
 @keyframes moveh2afi {
   0% {
-    transform: translate(0%, 0%) rotate(0deg) translate(0vw, 0vw) rotate(0deg);
-  }
-  25% {
-    transform: translate(0%, 0%) rotate(90deg) translate(0vw, 2vw)
-      rotate(-90deg);
+    transform: translateX(0vw);
   }
   50% {
-    transform: translate(0%, 0%) rotate(180deg) translate(0vw, 0vw)
-      rotate(-180deg);
-  }
-  75% {
-    transform: translate(0%, 0%) rotate(270deg) translate(0vw, -2vw)
-      rotate(-270deg);
+    transform: translateX(-4vw);
   }
   100% {
-    transform: translate(0%, 0%) rotate(360deg) translate(0vw, 0vw)
-      rotate(-360deg);
+    transform: translateX(0vw);
   }
 }
 @keyframes moveh3afi {
   0% {
-    transform: translate(0%, 0%) rotate(0deg) translate(0vw, 0vw) rotate(0deg);
+    transform: translateX(0vw);
   }
-  25% {
-    transform: translate(0%, 0%) rotate(90deg) translate(0vw, -2vw)
-      rotate(-90deg);
+  33% {
+    transform: translateX(3vw);
   }
-  50% {
-    transform: translate(0%, 0%) rotate(180deg) translate(0vw, 0vw)
-      rotate(-180deg);
-  }
-  75% {
-    transform: translate(0%, 0%) rotate(270deg) translate(0vw, 2vw)
-      rotate(-270deg);
+  66% {
+    transform: translateX(-3vw);
   }
   100% {
-    transform: translate(0%, 0%) rotate(360deg) translate(0vw, 0vw)
-      rotate(-360deg);
+    transform: translateX(0vw);
   }
 }
 
@@ -833,65 +806,35 @@
 }
 @keyframes moveh1abus {
   0% {
-    transform: translate(0%, 0%) rotate(0deg) translate(0vw, 0vw) rotate(0deg);
-  }
-  25% {
-    transform: translate(0%, 0%) rotate(90deg) translate(0vw, -2vw)
-      rotate(-90deg);
+    transform: translateX(0vw);
   }
   50% {
-    transform: translate(0%, 0%) rotate(180deg) translate(0vw, 0vw)
-      rotate(-180deg);
-  }
-  75% {
-    transform: translate(0%, 0%) rotate(270deg) translate(0vw, 2vw)
-      rotate(-270deg);
+    transform: translateX(5vw);
   }
   100% {
-    transform: translate(0%, 0%) rotate(360deg) translate(0vw, 0vw)
-      rotate(-360deg);
+    transform: translateX(0vw);
   }
 }
 @keyframes moveh2abus {
   0% {
-    transform: translate(0%, 0%) rotate(0deg) translate(0vw, 0vw) rotate(0deg);
-  }
-  25% {
-    transform: translate(0%, 0%) rotate(90deg) translate(0vw, 2vw)
-      rotate(-90deg);
+    transform: translateX(0vw);
   }
   50% {
-    transform: translate(0%, 0%) rotate(180deg) translate(0vw, 0vw)
-      rotate(-180deg);
-  }
-  75% {
-    transform: translate(0%, 0%) rotate(270deg) translate(0vw, -2vw)
-      rotate(-270deg);
+    transform: translateX(-4vw);
   }
   100% {
-    transform: translate(0%, 0%) rotate(360deg) translate(0vw, 0vw)
-      rotate(-360deg);
+    transform: translateX(0vw);
   }
 }
 @keyframes moveh3abus {
   0% {
-    transform: translate(0%, 0%) rotate(0deg) translate(0vw, 0vw) rotate(0deg);
-  }
-  25% {
-    transform: translate(0%, 0%) rotate(90deg) translate(0vw, -2vw)
-      rotate(-90deg);
+    transform: translateX(0vw);
   }
   50% {
-    transform: translate(0%, 0%) rotate(180deg) translate(0vw, 0vw)
-      rotate(-180deg);
-  }
-  75% {
-    transform: translate(0%, 0%) rotate(270deg) translate(0vw, 2vw)
-      rotate(-270deg);
+    transform: translateX(4vw);
   }
   100% {
-    transform: translate(0%, 0%) rotate(360deg) translate(0vw, 0vw)
-      rotate(-360deg);
+    transform: translateX(0vw);
   }
 }
 .abusbutton:hover {
