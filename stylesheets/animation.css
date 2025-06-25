@@ -899,3 +899,20 @@
   filter: brightness(70%);
   cursor: pointer;
 }
+@keyframes movepicabus {
+  0% {
+    background-image: url(../images/preview.svg);
+  }
+  25% {
+    background-image: url(../images/preview2.svg);
+  }
+  50% {
+    background-image: url(../images/preview.svg);
+  }
+  75% {
+    background-image: url(../images/preview3.svg);
+  }
+  100% {
+    background-image: url(../images/preview.svg);
+  }
+}

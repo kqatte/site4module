@@ -819,9 +819,14 @@ section {
   height: 50.1vw;
 }
 .preview1 {
+  background-image: url(../images/preview.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   width: 76.4vw;
+  height: 46.9vw;
   overflow: hidden;
+  animation: movepicabus 2s steps(1) infinite;
 }
 .scr5abus {
   position: relative;
