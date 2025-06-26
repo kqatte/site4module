@@ -2,9 +2,9 @@ body {
   font-family: Helvetica;
   background-color: #f7f7f7;
   position: relative;
-  /* background-image: url(../images/касса\ итог.jpg); */
+  /* background-image: url(../images/404\ итог.jpg); */
   width: 100%;
-  /* height: 1219px;
+  /* height: 860px;
   z-index: -10000;
   opacity: 0.5; */
 }
@@ -1119,4 +1119,61 @@ section {
   position: relative;
   display: flex;
   justify-content: center;
+}
+
+/* страница 404 */
+.text404 {
+  position: absolute;
+  font-size: 28vw;
+  margin-left: 27.9vw;
+  margin-top: 6.3vw;
+  letter-spacing: -1.2vw;
+}
+.h2404 {
+  position: absolute;
+  margin-top: 35.1vw;
+  margin-left: 32.55vw;
+}
+.tomainbutton {
+  position: absolute;
+  width: 15.4vw;
+  transition: transform 0.3s ease;
+  margin-top: 43.3vw;
+  margin-left: 42.3vw;
+}
+.redguy1 {
+  position: absolute;
+  margin-top: 7.6vw;
+  margin-left: 17vw;
+  animation: imgmove1 10s linear infinite;
+}
+.redguy2 {
+  position: absolute;
+  margin-top: 20.7vw;
+  margin-left: 90.8vw;
+  animation: imgmove2 10s linear infinite;
+}
+.whitewomen {
+  position: absolute;
+  margin-top: 2.7vw;
+  margin-left: 70.2vw;
+  animation: imgmove3 10s linear infinite;
+}
+.blackpeople {
+  position: absolute;
+  margin-top: 25.4vw;
+  margin-left: 1.9vw;
+  animation: imgmove3 10s linear infinite;
+}
+.blacklines {
+  position: absolute;
+  margin-top: 48vw;
+  margin-left: 18.1vw;
+  animation: imgmove2 10s linear infinite;
+}
+.whitefaces {
+  position: absolute;
+  margin-top: 42vw;
+  margin-left: 74.8vw;
+  animation: imgmove1 10s linear infinite;
 }

@@ -911,3 +911,74 @@
     transform: translateX(0vw);
   }
 }
+
+/* страница 404 */
+.tomainbutton:hover {
+  transform: scale(1.02);
+  filter: brightness(70%);
+  cursor: pointer;
+}
+@keyframes imgmove1 {
+  0% {
+    transform: translate(0%, 0%) rotate(0deg) translate(0vw, 0vw) rotate(0deg);
+  }
+  25% {
+    transform: translate(0%, 0%) rotate(90deg) translate(0vw, -2vw)
+      rotate(-90deg);
+  }
+  50% {
+    transform: translate(0%, 0%) rotate(180deg) translate(0vw, 0vw)
+      rotate(-180deg);
+  }
+  75% {
+    transform: translate(0%, 0%) rotate(270deg) translate(0vw, 2vw)
+      rotate(-270deg);
+  }
+  100% {
+    transform: translate(0%, 0%) rotate(360deg) translate(0vw, 0vw)
+      rotate(-360deg);
+  }
+}
+
+@keyframes imgmove2 {
+  0% {
+    transform: translate(0%, 0%) rotate(0deg) translate(0vw, 0vw) rotate(0deg);
+  }
+  25% {
+    transform: translate(0%, 0%) rotate(90deg) translate(0vw, 3vw)
+      rotate(-90deg);
+  }
+  50% {
+    transform: translate(0%, 0%) rotate(180deg) translate(0vw, 0vw)
+      rotate(-180deg);
+  }
+  75% {
+    transform: translate(0%, 0%) rotate(270deg) translate(0vw, -3vw)
+      rotate(-270deg);
+  }
+  100% {
+    transform: translate(0%, 0%) rotate(360deg) translate(0vw, 0vw)
+      rotate(-360deg);
+  }
+}
+@keyframes imgmove3 {
+  0% {
+    transform: translate(0%, 0%) rotate(0deg) translate(0vw, 0vw) rotate(0deg);
+  }
+  25% {
+    transform: translate(0%, 0%) rotate(90deg) translate(0vw, 1vw)
+      rotate(-90deg);
+  }
+  50% {
+    transform: translate(0%, 0%) rotate(180deg) translate(0vw, 0vw)
+      rotate(-180deg);
+  }
+  75% {
+    transform: translate(0%, 0%) rotate(270deg) translate(0vw, -1vw)
+      rotate(-270deg);
+  }
+  100% {
+    transform: translate(0%, 0%) rotate(360deg) translate(0vw, 0vw)
+      rotate(-360deg);
+  }
+}
