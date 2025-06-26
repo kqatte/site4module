@@ -923,7 +923,7 @@ section {
 }
 .formtickets {
   position: relative;
-  height: 47.3vw;
+  height: 57.3vw;
   width: 100vw;
 }
 .formname {
@@ -1006,13 +1006,33 @@ section {
   width: 63.5vw;
   height: 2vw;
 }
-.formdate {
+.formshow {
   position: absolute;
   display: flex;
   flex-direction: column;
   gap: 0.3vw;
   width: 20vw;
   margin-top: 37.3vw;
+  margin-left: 18vw;
+  color: #3d3d3d;
+  font-size: 1.25vw;
+  line-height: 115%;
+}
+#show::placeholder {
+  font-size: 1.669vw;
+  color: #c5c5c5;
+}
+#show {
+  width: 63.5vw;
+  height: 2vw;
+}
+.formdate {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3vw;
+  width: 20vw;
+  margin-top: 47.1vw;
   margin-left: 18vw;
   color: #3d3d3d;
   font-size: 1.25vw;
@@ -1026,5 +1046,77 @@ section {
   position: relative;
   display: flex;
   justify-content: center;
-  margin-top: 2vw;
+  margin-top: 3vw;
+}
+
+/* форма корзина */
+.formbasket {
+  position: relative;
+  height: 41.3vw;
+  width: 100vw;
+}
+.formphone2 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3vw;
+  width: 20vw;
+  margin-top: 5.1vw;
+  margin-left: 50.4vw;
+  color: #3d3d3d;
+  font-size: 1.25vw;
+  line-height: 115%;
+}
+#phone2::placeholder {
+  font-size: 1.669vw;
+  color: #c5c5c5;
+}
+#phone2 {
+  width: 31.2vw;
+  height: 2vw;
+}
+.formadress {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3vw;
+  width: 20vw;
+  margin-top: 15.8vw;
+  margin-left: 18vw;
+  color: #3d3d3d;
+  font-size: 1.25vw;
+  line-height: 115%;
+}
+#adress::placeholder {
+  font-size: 1.669vw;
+  color: #c5c5c5;
+}
+#adress {
+  width: 63.5vw;
+  height: 2vw;
+}
+.formitems {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3vw;
+  width: 20vw;
+  margin-top: 26.5vw;
+  margin-left: 18vw;
+  color: #3d3d3d;
+  font-size: 1.25vw;
+  line-height: 115%;
+}
+#items::placeholder {
+  font-size: 1.669vw;
+  color: #c5c5c5;
+}
+#items {
+  width: 63.5vw;
+  height: 2vw;
+}
+.scr2basket {
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
