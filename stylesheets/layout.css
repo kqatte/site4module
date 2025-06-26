@@ -2,9 +2,9 @@ body {
   font-family: Helvetica;
   background-color: #f7f7f7;
   position: relative;
-  /* background-image: url(../images/форма\ корзины\ итог.jpg); */
+  /* background-image: url(../images/главная\ итог.jpg); */
   width: 100%;
-  /* height: 860px;
+  /* height: 2114px;
   z-index: -10000;
   opacity: 0.5; */
 }
@@ -108,7 +108,7 @@ section {
   position: relative;
   overflow: hidden;
   width: 100vw;
-  height: 63.611vw;
+  height: 64.2vw;
 }
 .h1main {
   position: absolute;
@@ -193,22 +193,55 @@ section {
   height: 61.11vw;
 }
 .komandaarina {
-  margin-top: 5.3vw;
+  margin-top: 3.2vw;
   margin-left: 1.9vw;
   position: absolute;
   width: 96.25vw;
 }
 .komandadaria {
-  margin-top: 23.4vw;
+  margin-top: 20.4vw;
   margin-left: 1.9vw;
   position: absolute;
   width: 96.25vw;
 }
 .komandanastya {
-  margin-top: 41.6vw;
+  margin-top: 37.6vw;
   margin-left: 1.9vw;
   position: absolute;
   width: 96.25vw;
+}
+.arina {
+  background-image: url(../images/arikom.svg);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 15.4vw;
+  height: 15.4vw;
+  margin-top: 3.6vw;
+  margin-left: 42.3vw;
+  transition: transform 0.3s ease;
+}
+.dasha {
+  background-image: url(../images/dakom.svg);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 15.4vw;
+  height: 15.4vw;
+  margin-left: 42.3vw;
+  margin-top: 20.9vw;
+  transition: transform 0.3s ease;
+}
+.nastya {
+  background-image: url(../images/nakom.svg);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 15.4vw;
+  height: 15.4vw;
+  margin-left: 42.3vw;
+  margin-top: 38.2vw;
+  transition: transform 0.3s ease;
 }
 
 /* подвал */

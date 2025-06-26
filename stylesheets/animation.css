@@ -24,6 +24,7 @@
   filter: brightness(40%);
 }
 
+/* главный экран */
 /* анимация движения картинок */
 @keyframes movemenu1 {
   0% {
@@ -181,7 +182,15 @@
   animation-play-state: paused;
   filter: brightness(70%);
 }
-
+.arina:hover {
+  background-image: url(../images/arinakomhov.svg);
+}
+.dasha:hover {
+  background-image: url(../images/dashakomhov.svg);
+}
+.nastya:hover {
+  background-image: url(../images/nastyakomhov.svg);
+}
 /* подвал анимации */
 @keyframes movepodval1 {
   0% {
