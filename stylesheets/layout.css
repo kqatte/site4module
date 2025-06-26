@@ -2,7 +2,7 @@ body {
   font-family: Helvetica;
   background-color: #f7f7f7;
   position: relative;
-  /* background-image: url(../images/главная\ итог.jpg); */
+  /* background-image: url(../images/касса\ итог.jpg); */
   width: 100%;
   /* height: 2114px;
   z-index: -10000;
@@ -933,6 +933,17 @@ section {
 }
 
 /* форма билеты */
+input {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: none;
+  color: inherit;
+  text-align: center;
+}
 .scr1tick {
   position: relative;
   display: flex;
@@ -949,10 +960,35 @@ section {
   width: 80vw;
   margin-left: 10vw;
 }
-.form-group input {
-  padding: 0.01vw;
-  border: 0.1vw solid #3d3d3d;
-  width: 100%;
+.ch1 {
+  position: absolute;
+  margin-left: 18vw;
+  margin-top: 9.2vw;
+}
+.ch2 {
+  position: absolute;
+  margin-left: 50.3vw;
+  margin-top: 9.2vw;
+}
+.ch3 {
+  position: absolute;
+  margin-left: 18vw;
+  margin-top: 20vw;
+}
+.ch4 {
+  position: absolute;
+  margin-left: 18vw;
+  margin-top: 30.8vw;
+}
+.ch5 {
+  position: absolute;
+  margin-left: 18vw;
+  margin-top: 41.6vw;
+}
+.ch6 {
+  position: absolute;
+  margin-left: 18vw;
+  margin-top: 51.4vw;
 }
 .formtickets {
   position: relative;
@@ -978,6 +1014,8 @@ section {
 #name {
   width: 31.2vw;
   height: 2vw;
+  margin-left: -10.5vw;
+  margin-top: 0.2vw;
 }
 .formemail {
   position: absolute;
@@ -998,6 +1036,8 @@ section {
 #email {
   width: 31.2vw;
   height: 2vw;
+  margin-left: -8.4vw;
+  margin-top: 0.2vw;
 }
 .formphone {
   position: absolute;
@@ -1018,6 +1058,8 @@ section {
 #phone {
   width: 63.5vw;
   height: 2vw;
+  margin-left: -24.4vw;
+  margin-top: 0.2vw;
 }
 .formpartic {
   position: absolute;
@@ -1038,6 +1080,8 @@ section {
 #participants {
   width: 63.5vw;
   height: 2vw;
+  margin-left: -22.4vw;
+  margin-top: 0.2vw;
 }
 .formshow {
   position: absolute;
@@ -1058,6 +1102,8 @@ section {
 #show {
   width: 63.5vw;
   height: 2vw;
+  margin-left: -24vw;
+  margin-top: 0.2vw;
 }
 .formdate {
   position: absolute;
@@ -1107,6 +1153,8 @@ section {
 #phone2 {
   width: 31.2vw;
   height: 2vw;
+  margin-left: -8.4vw;
+  margin-top: 0.2vw;
 }
 .formadress {
   position: absolute;
@@ -1127,6 +1175,8 @@ section {
 #adress {
   width: 63.5vw;
   height: 2vw;
+  margin-left: -18.5vw;
+  margin-top: 0.2vw;
 }
 .formitems {
   position: absolute;
@@ -1147,6 +1197,8 @@ section {
 #items {
   width: 63.5vw;
   height: 2vw;
+  margin-left: -31.2vw;
+  margin-top: 0.2vw;
 }
 .scr2basket {
   position: relative;
