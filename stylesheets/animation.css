@@ -982,3 +982,10 @@
       rotate(-360deg);
   }
 }
+
+/* страница спасибо за покупку */
+.tomainbutton2:hover {
+  transform: scale(1.02);
+  filter: brightness(70%);
+  cursor: pointer;
+}

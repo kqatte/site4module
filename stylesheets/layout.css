@@ -2,7 +2,7 @@ body {
   font-family: Helvetica;
   background-color: #f7f7f7;
   position: relative;
-  /* background-image: url(../images/404\ итог.jpg); */
+  /* background-image: url(../images/форма\ корзины\ итог.jpg); */
   width: 100%;
   /* height: 860px;
   z-index: -10000;
@@ -1176,4 +1176,24 @@ section {
   margin-top: 42vw;
   margin-left: 74.8vw;
   animation: imgmove1 10s linear infinite;
+}
+
+/* страница спасибо за покупку */
+.grat {
+  position: relative;
+  width: 100vw;
+  margin-top: -1vw;
+}
+.grath1 {
+  position: absolute;
+  word-spacing: normal;
+  margin-top: 26.9vw;
+  margin-left: 20.4vw;
+}
+.tomainbutton2 {
+  position: absolute;
+  width: 15.4vw;
+  transition: transform 0.3s ease;
+  margin-top: 46.3vw;
+  margin-left: 42.59vw;
 }
