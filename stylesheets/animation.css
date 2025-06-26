@@ -844,18 +844,70 @@
 }
 @keyframes movepicabus {
   0% {
-    background-image: url(../images/preview.svg);
+    background-image: url(../images/preview1.svg);
   }
   25% {
     background-image: url(../images/preview2.svg);
   }
   50% {
-    background-image: url(../images/preview.svg);
+    background-image: url(../images/preview1.svg);
   }
   75% {
     background-image: url(../images/preview3.svg);
   }
   100% {
-    background-image: url(../images/preview.svg);
+    background-image: url(../images/preview1.svg);
+  }
+}
+
+/* онлайн-спектакль */
+@keyframes movepiconl {
+  0% {
+    background-image: url(../images/preview4.svg);
+  }
+  25% {
+    background-image: url(../images/preview5.svg);
+  }
+  50% {
+    background-image: url(../images/preview4.svg);
+  }
+  75% {
+    background-image: url(../images/preview6.svg);
+  }
+  100% {
+    background-image: url(../images/preview4.svg);
+  }
+}
+@keyframes moveh1onl {
+  0% {
+    transform: translateX(0vw);
+  }
+  50% {
+    transform: translateX(4vw);
+  }
+  100% {
+    transform: translateX(0vw);
+  }
+}
+@keyframes moveh2onl {
+  0% {
+    transform: translateX(0vw);
+  }
+  50% {
+    transform: translateX(-3vw);
+  }
+  100% {
+    transform: translateX(0vw);
+  }
+}
+@keyframes moveh3onl {
+  0% {
+    transform: translateX(0vw);
+  }
+  50% {
+    transform: translateX(3vw);
+  }
+  100% {
+    transform: translateX(0vw);
   }
 }

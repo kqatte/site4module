@@ -2,9 +2,9 @@ body {
   font-family: Helvetica;
   background-color: #f7f7f7;
   position: relative;
-  /* background-image: url(../images/о\ нас\ итог.jpg); */
+  /* background-image: url(../images/касса\ итог.jpg); */
   width: 100%;
-  /* height: 2991px;
+  /* height: 1219px;
   z-index: -10000;
   opacity: 0.5; */
 }
@@ -22,6 +22,10 @@ h1 {
 h2 {
   color: #3d3d3d;
   font-size: 2.09vw;
+}
+h3 {
+  color: #3d3d3d;
+  font-size: 1.669vw;
 }
 section {
   width: 100vw;
@@ -819,7 +823,7 @@ section {
   height: 50.1vw;
 }
 .preview1 {
-  background-image: url(../images/preview.svg);
+  background-image: url(../images/preview1.svg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -840,4 +844,187 @@ section {
   position: relative;
   width: 13.5vw;
   transition: transform 0.3s ease;
+}
+
+/* онлайн-спектакль */
+.scr1onl {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 33.3vw;
+}
+.h1onl {
+  position: absolute;
+  margin-top: 7.9vw;
+  margin-left: 2.9vw;
+  animation: moveh1onl 4s linear infinite;
+}
+.h2onl {
+  position: absolute;
+  margin-top: 16.7vw;
+  margin-left: 10.5vw;
+  animation: moveh2onl 4s linear infinite;
+}
+.h3onl {
+  position: absolute;
+  margin-top: 25.3vw;
+  margin-left: 1.8vw;
+  animation: moveh3onl 7s linear infinite;
+}
+.scr2onl {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  width: 100vw;
+  height: 52.1vw;
+}
+.preview2 {
+  background-image: url(../images/preview4.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 76.4vw;
+  height: 46.9vw;
+  overflow: hidden;
+  margin-top: 3vw;
+  animation: movepiconl 2s steps(1) infinite;
+}
+.scr3onl {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  width: 100vw;
+  height: 6.25vw;
+}
+
+/* форма билеты */
+.scr1tick {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  height: 14.4vw;
+  width: 100vw;
+}
+.h3tick {
+  margin-top: 10.8vw;
+  margin-left: 9.9vw;
+}
+.border {
+  position: absolute;
+  width: 80vw;
+  margin-left: 10vw;
+}
+.form-group input {
+  padding: 0.01vw;
+  border: 0.1vw solid #3d3d3d;
+  width: 100%;
+}
+.formtickets {
+  position: relative;
+  height: 47.3vw;
+  width: 100vw;
+}
+.formname {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3vw;
+  width: 20vw;
+  margin-top: 5.1vw;
+  margin-left: 18vw;
+  color: #3d3d3d;
+  font-size: 1.25vw;
+  line-height: 115%;
+}
+#name::placeholder {
+  font-size: 1.669vw;
+  color: #c5c5c5;
+}
+#name {
+  width: 31.2vw;
+  height: 2vw;
+}
+.formemail {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3vw;
+  width: 20vw;
+  margin-top: 5.1vw;
+  margin-left: 50.4vw;
+  color: #3d3d3d;
+  font-size: 1.25vw;
+  line-height: 115%;
+}
+#email::placeholder {
+  font-size: 1.669vw;
+  color: #c5c5c5;
+}
+#email {
+  width: 31.2vw;
+  height: 2vw;
+}
+.formphone {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3vw;
+  width: 20vw;
+  margin-top: 15.8vw;
+  margin-left: 18vw;
+  color: #3d3d3d;
+  font-size: 1.25vw;
+  line-height: 115%;
+}
+#phone::placeholder {
+  font-size: 1.669vw;
+  color: #c5c5c5;
+}
+#phone {
+  width: 63.5vw;
+  height: 2vw;
+}
+.formpartic {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3vw;
+  width: 20vw;
+  margin-top: 26.5vw;
+  margin-left: 18vw;
+  color: #3d3d3d;
+  font-size: 1.25vw;
+  line-height: 115%;
+}
+#participants::placeholder {
+  font-size: 1.669vw;
+  color: #c5c5c5;
+}
+#participants {
+  width: 63.5vw;
+  height: 2vw;
+}
+.formdate {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3vw;
+  width: 20vw;
+  margin-top: 37.3vw;
+  margin-left: 18vw;
+  color: #3d3d3d;
+  font-size: 1.25vw;
+  line-height: 115%;
+}
+#date {
+  width: 63.5vw;
+  height: 2vw;
+}
+.scr2tick {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 2vw;
 }
