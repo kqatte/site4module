@@ -56,6 +56,8 @@ section {
   margin-left: 90vw;
 }
 .psevdosection2 {
+  position: absolute;
+  z-index: 1000;
   display: none;
   width: 100vw;
   height: 208vw;
@@ -67,11 +69,47 @@ section {
   margin-left: 90vw;
 }
 .abusmenu2 {
+  text-decoration: none;
+  white-space: nowrap;
   position: absolute;
+  margin-left: 45vw;
+  margin-top: 30vw;
+  font-size: 5vw;
   color: #f7f7f7;
-  font-size: 1.4vw;
-  margin-top: 2vw;
-  margin-left: 52.25vw;
+}
+.afimenu2 {
+  position: absolute;
+  margin-left: 43vw;
+  margin-top: 50vw;
+  font-size: 5vw;
+  color: #f7f7f7;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.onlmenu2 {
+  position: absolute;
+  margin-left: 31vw;
+  margin-top: 70vw;
+  font-size: 5vw;
+  color: #f7f7f7;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.shmenu2 {
+  position: absolute;
+  margin-left: 42vw;
+  margin-top: 90vw;
+  font-size: 5vw;
+  color: #f7f7f7;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.tickmenu2 {
+  position: absolute;
+  margin-left: 36vw;
+  margin-top: 110vw;
+  font-size: 5vw;
+  color: #f7f7f7;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -120,21 +158,37 @@ section {
   position: absolute;
   margin-top: 72vw;
   margin-left: 12vw;
+  width: 36.7vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: movemenu4 10s linear infinite;
 }
 .shimgmenup {
   position: absolute;
+  width: 32vw;
   margin-top: 17vw;
   margin-left: 2vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: movemenu1 10s linear infinite;
 }
 .premimgmenup {
   position: absolute;
   margin-top: 1.9vw;
   margin-left: 50vw;
+  width: 39.1vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: movemenu6 9s linear infinite;
 }
 .abusimgmenup {
   position: absolute;
   margin-top: 56vw;
   margin-left: 63vw;
+  width: 33.8vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: movemenu5 12s linear infinite;
 }
 .psevdosection5 {
   display: none;
@@ -143,12 +197,15 @@ section {
 }
 .komandaarinap {
   margin-top: 2.1vw;
+  width: 100vw;
 }
 .komandadariap {
   margin-top: 2.1vw;
+  width: 100vw;
 }
 .komandanastyap {
   margin-top: 2.1vw;
+  width: 100vw;
 }
 .arinap {
   background-image: url(../images/arikom.svg);
@@ -192,48 +249,56 @@ section {
   position: absolute;
   margin-left: 39vw;
   margin-top: 1vw;
+  animation: movepodval1 9s linear infinite;
 }
 .tickpodvalp {
   width: 27vw;
   position: absolute;
   margin-left: 70vw;
   margin-top: 6vw;
+  animation: movepodval2 9s linear infinite;
 }
 .afipodvalp {
   width: 27vw;
   position: absolute;
   margin-left: 36vw;
   margin-top: 41vw;
+  animation: movepodval3 9s linear infinite;
 }
 .abuspodvalp {
   width: 27vw;
   position: absolute;
   margin-left: 29vw;
   margin-top: 19vw;
+  animation: movepodval4 9s linear infinite;
 }
 .shpodvalp {
   width: 27vw;
   position: absolute;
   margin-left: 71vw;
   margin-top: 38vw;
+  animation: movepodval5 9s linear infinite;
 }
 .katepodvalp {
   width: 27vw;
   position: absolute;
   margin-left: 56vw;
   margin-top: 24vw;
+  animation: movepodval6 9s linear infinite;
 }
 .kamilapodvalp {
   width: 27vw;
   position: absolute;
   margin-left: 3vw;
   margin-top: 7vw;
+  animation: movepodval7 9s linear infinite;
 }
 .annapodvalp {
   width: 27vw;
   position: absolute;
   margin-left: 3vw;
   margin-top: 32vw;
+  animation: movepodval8 9s linear infinite;
 }
 .logopodvalp {
   position: absolute;
@@ -852,6 +917,7 @@ section {
 }
 .tshirt1 {
   position: absolute;
+  width: 27vw;
   margin-top: 9.7vw;
   margin-left: 36vw;
   animation: move1sh 9s linear infinite;
@@ -859,6 +925,7 @@ section {
 }
 .plastinka1 {
   position: absolute;
+  width: 27vw;
   margin-top: 27.5vw;
   margin-left: 1.9vw;
   animation: move2sh 6s linear infinite;
@@ -866,6 +933,7 @@ section {
 }
 .shopper1 {
   position: absolute;
+  width: 27vw;
   margin-top: 24.9vw;
   margin-left: 70.3vw;
   animation: move3sh 7s linear infinite;
@@ -873,6 +941,7 @@ section {
 }
 .tshirt2 {
   position: absolute;
+  width: 27vw;
   margin-top: 69.7vw;
   margin-left: 13.8vw;
   animation: move4sh 6s linear infinite;
@@ -880,6 +949,7 @@ section {
 }
 .book1 {
   position: absolute;
+  width: 27vw;
   margin-top: 62vw;
   margin-left: 58.4vw;
   animation: move5sh 8s linear infinite;
@@ -917,6 +987,7 @@ section {
 }
 .cap1 {
   position: absolute;
+  width: 27vw;
   margin-top: 10.6vw;
   margin-left: 36vw;
   animation: move6sh 8s linear infinite;
@@ -925,6 +996,7 @@ section {
 }
 .stickers1 {
   position: absolute;
+  width: 27vw;
   margin-top: 30.3vw;
   margin-left: 1.9vw;
   animation: move7sh 8s linear infinite;
@@ -933,6 +1005,7 @@ section {
 }
 .shopper2 {
   position: absolute;
+  width: 27vw;
   margin-top: 33.5vw;
   margin-left: 70.25vw;
   animation: move8sh 8s linear infinite;
@@ -941,6 +1014,7 @@ section {
 }
 .tshirt3 {
   position: absolute;
+  width: 27vw;
   margin-top: 69.7vw;
   margin-left: 13.8vw;
   animation: move9sh 8s linear infinite;
@@ -949,6 +1023,7 @@ section {
 }
 .case1 {
   position: absolute;
+  width: 27vw;
   margin-top: 75.8vw;
   margin-left: 58.4vw;
   animation: move10sh 8s linear infinite;
@@ -1175,31 +1250,37 @@ input {
 }
 .ch1 {
   position: absolute;
+  width: 31.6vw;
   margin-left: 18vw;
   margin-top: 9.2vw;
 }
 .ch2 {
   position: absolute;
+  width: 31.6vw;
   margin-left: 50.3vw;
   margin-top: 9.2vw;
 }
 .ch3 {
   position: absolute;
+  width: 63.9vw;
   margin-left: 18vw;
   margin-top: 20vw;
 }
 .ch4 {
   position: absolute;
+  width: 63.9vw;
   margin-left: 18vw;
   margin-top: 30.8vw;
 }
 .ch5 {
   position: absolute;
+  width: 63.9vw;
   margin-left: 18vw;
   margin-top: 41.6vw;
 }
 .ch6 {
   position: absolute;
+  width: 63.9vw;
   margin-left: 18vw;
   margin-top: 51.4vw;
 }
