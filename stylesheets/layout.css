@@ -2,9 +2,9 @@ body {
   font-family: Helvetica;
   background-color: #f7f7f7;
   position: relative;
-  /* background-image: url(../images/касса\ итог.jpg); */
+  /* background-image: url(../images/главная\ 414.jpg); */
   width: 100%;
-  /* height: 2114px;
+  /* height: 1608px;
   z-index: -10000;
   opacity: 0.5; */
 }
@@ -31,7 +31,220 @@ section {
   width: 100vw;
   overflow: hidden;
 }
-
+/* адаптивки */
+.psevdosection1 {
+  display: none;
+  height: 10.3vw;
+  position: fixed;
+  background-color: #f1f1f1;
+  opacity: 0.9;
+  z-index: 10000;
+}
+.psevdologomenu {
+  position: absolute;
+  color: #740606;
+  font-weight: bold;
+  font-size: 5vw;
+  margin-top: 4vw;
+  margin-left: 2vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.burger {
+  position: absolute;
+  margin-top: 4vw;
+  margin-left: 90vw;
+}
+.psevdosection2 {
+  display: none;
+  width: 100vw;
+  height: 208vw;
+  background-color: #3d3d3d;
+}
+.closeburger {
+  position: absolute;
+  margin-top: 12vw;
+  margin-left: 90vw;
+}
+.abusmenu2 {
+  position: absolute;
+  color: #f7f7f7;
+  font-size: 1.4vw;
+  margin-top: 2vw;
+  margin-left: 52.25vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.psevdosection3 {
+  display: none;
+  width: 100vw;
+  height: 70vw;
+}
+.h1mainp {
+  position: absolute;
+  margin-top: 15.2vw;
+  margin-left: 2.6vw;
+}
+.tiremainp {
+  position: absolute;
+  width: 18.5vw;
+  margin-left: 40.4vw;
+  margin-top: 19.1vw;
+}
+.h2mainp {
+  position: absolute;
+  margin-top: 15.2vw;
+  margin-left: 70.4vw;
+}
+.h3mainp {
+  position: absolute;
+  margin-top: 28vw;
+  margin-left: 2.6vw;
+}
+.h4mainp {
+  position: absolute;
+  margin-top: 40.5vw;
+  margin-left: 52vw;
+}
+.p1mainp {
+  position: absolute;
+  margin-top: 56vw;
+  margin-left: 2.3vw;
+}
+.psevdosection4 {
+  display: none;
+  width: 100vw;
+  height: 120vw;
+}
+.tickimgmenup {
+  position: absolute;
+  margin-top: 72vw;
+  margin-left: 12vw;
+}
+.shimgmenup {
+  position: absolute;
+  margin-top: 17vw;
+  margin-left: 2vw;
+}
+.premimgmenup {
+  position: absolute;
+  margin-top: 1.9vw;
+  margin-left: 50vw;
+}
+.abusimgmenup {
+  position: absolute;
+  margin-top: 56vw;
+  margin-left: 63vw;
+}
+.psevdosection5 {
+  display: none;
+  width: 100vw;
+  height: 140vw;
+}
+.komandaarinap {
+  margin-top: 2.1vw;
+}
+.komandadariap {
+  margin-top: 2.1vw;
+}
+.komandanastyap {
+  margin-top: 2.1vw;
+}
+.arinap {
+  background-image: url(../images/arikom.svg);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 39.6vw;
+  height: 39.6vw;
+  margin-top: -134vw;
+  margin-left: 0.2vw;
+}
+.dashap {
+  background-image: url(../images/dakom.svg);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 39.6vw;
+  height: 39.6vw;
+  margin-left: 0.2vw;
+  margin-top: -88vw;
+  transition: transform 0.3s ease;
+}
+.nastyap {
+  background-image: url(../images/nakom.svg);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 39.6vw;
+  height: 39.6vw;
+  margin-left: 0.2vw;
+  margin-top: -43vw;
+  transition: transform 0.3s ease;
+}
+.psevdopodval {
+  display: none;
+  width: 100vw;
+  height: 40vw;
+}
+.onlpodvalp {
+  width: 27vw;
+  position: absolute;
+  margin-left: 39vw;
+  margin-top: 1vw;
+}
+.tickpodvalp {
+  width: 27vw;
+  position: absolute;
+  margin-left: 70vw;
+  margin-top: 6vw;
+}
+.afipodvalp {
+  width: 27vw;
+  position: absolute;
+  margin-left: 36vw;
+  margin-top: 41vw;
+}
+.abuspodvalp {
+  width: 27vw;
+  position: absolute;
+  margin-left: 29vw;
+  margin-top: 19vw;
+}
+.shpodvalp {
+  width: 27vw;
+  position: absolute;
+  margin-left: 71vw;
+  margin-top: 38vw;
+}
+.katepodvalp {
+  width: 27vw;
+  position: absolute;
+  margin-left: 56vw;
+  margin-top: 24vw;
+}
+.kamilapodvalp {
+  width: 27vw;
+  position: absolute;
+  margin-left: 3vw;
+  margin-top: 7vw;
+}
+.annapodvalp {
+  width: 27vw;
+  position: absolute;
+  margin-left: 3vw;
+  margin-top: 32vw;
+}
+.logopodvalp {
+  position: absolute;
+  color: #740606;
+  font-weight: bold;
+  font-size: 5vw;
+  margin-top: 50vw;
+  margin-left: 2vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
 /* главная страница */
 /* навбар */
 .navbar {

@@ -1,22 +1,3 @@
-// document.addEventListener('DOMContentLoaded', () => {
-//   OpenMenu()
-// })
-
-// // открыть меню
-// function OpenMenu() {
-//   const triggers = document.querySelectorAll('.menubutton')
-//   const fullscreenBlock = document.querySelector('.menufixed')
-//   const closeBtn = document.querySelector('.closebutton')
-//   triggers.forEach((trigger) => {
-//     trigger.addEventListener('click', () => {
-//       fullscreenBlock.style.display = 'flex'
-//     })
-//   })
-//   closeBtn.addEventListener('click', () => {
-//     fullscreenBlock.style.display = 'none'
-//   })
-// }
-
 // афиша зин по клику
 document.addEventListener('DOMContentLoaded', function () {
   const imageSources = [
@@ -53,5 +34,32 @@ document.addEventListener('DOMContentLoaded', function () {
     element.addEventListener('click', () => {
       element.classList.toggle('color-active')
     })
+  })
+})
+
+document.addEventListener('DOMContentLoaded', function () {
+  const triggers = document.querySelectorAll('.burger')
+  const fullscreenBlock = document.querySelector('.psevdosection2')
+  const closeBtn = document.querySelector('.closeburger')
+
+  if (!triggers.length || !fullscreenBlock || !closeBtn) {
+    console.error('Не все элементы найдены на странице')
+    return
+  }
+
+  triggers.forEach((trigger) => {
+    trigger.addEventListener('click', () => {
+      fullscreenBlock.style.display = 'flex'
+    })
+  })
+
+  closeBtn.addEventListener('click', () => {
+    fullscreenBlock.style.display = 'none'
+  })
+
+  fullscreenBlock.addEventListener('click', (e) => {
+    if (e.target === fullscreenBlock) {
+      fullscreenBlock.style.display = 'none'
+    }
   })
 })
