@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
   setTimeout(() => {
     preloader.style.display = 'none'
     content.style.display = 'block'
-  }, 6000)
+  }, 4000)
 })
 
 // афиша зин по клику
