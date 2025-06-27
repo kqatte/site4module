@@ -31,6 +31,49 @@ section {
   width: 100vw;
   overflow: hidden;
 }
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f7f7f7;
+  z-index: 9999;
+}
+.preloadertext {
+  margin-top: 23vw;
+  text-align: center;
+}
+.prel1 {
+  position: absolute;
+  margin-top: 10vw;
+  margin-left: 20vw;
+  animation: movemenu1 10s linear infinite;
+}
+.prel2 {
+  position: absolute;
+  margin-top: -15vw;
+  margin-left: 30vw;
+  animation: movemenu2 10s linear infinite;
+}
+.prel3 {
+  position: absolute;
+  margin-top: -15vw;
+  margin-left: 60vw;
+  animation: movemenu3 10s linear infinite;
+}
+.prel4 {
+  position: absolute;
+  margin-top: 15vw;
+  margin-left: 40vw;
+  animation: movemenu2 10s linear infinite;
+}
+.prel5 {
+  position: absolute;
+  margin-top: 0;
+  margin-left: 70vw;
+  animation: movemenu1 10s linear infinite;
+}
 /* адаптивки */
 .psevdosection1 {
   display: none;
@@ -424,7 +467,7 @@ section {
   position: fixed;
   background-color: #f1f1f1;
   opacity: 0.9;
-  z-index: 10000;
+  z-index: 900;
 }
 .logomenu {
   position: absolute;

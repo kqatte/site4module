@@ -1,3 +1,12 @@
+document.addEventListener('DOMContentLoaded', () => {
+  const preloader = document.getElementById('preloader')
+  const content = document.getElementById('content')
+  setTimeout(() => {
+    preloader.style.display = 'none'
+    content.style.display = 'block'
+  }, 6000)
+})
+
 // афиша зин по клику
 document.addEventListener('DOMContentLoaded', function () {
   const imageSources = [
@@ -37,15 +46,11 @@ document.addEventListener('DOMContentLoaded', function () {
   })
 })
 
+// бургер меню
 document.addEventListener('DOMContentLoaded', function () {
   const triggers = document.querySelectorAll('.burger')
   const fullscreenBlock = document.querySelector('.psevdosection2')
   const closeBtn = document.querySelector('.closeburger')
-
-  if (!triggers.length || !fullscreenBlock || !closeBtn) {
-    console.error('Не все элементы найдены на странице')
-    return
-  }
 
   triggers.forEach((trigger) => {
     trigger.addEventListener('click', () => {
