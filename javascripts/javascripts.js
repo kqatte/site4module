@@ -1,3 +1,4 @@
+// прелоадер
 document.addEventListener('DOMContentLoaded', () => {
   const preloader = document.getElementById('preloader')
   const content = document.getElementById('content')
