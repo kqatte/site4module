@@ -20,7 +20,16 @@
   .navbar,
   .scr1main,
   .scr2main,
-  .podval {
+  .podval,
+  .p1abus,
+  .h1abus,
+  .h2abus,
+  .h3abus,
+  .scr2abus,
+  .scr1abus,
+  .scr4abus,
+  .scr5abus,
+  .p2abus {
     display: none;
   }
 
@@ -28,7 +37,14 @@
   .psevdosection3,
   .psevdosection4,
   .psevdosection5,
-  .psevdopodval {
+  .psevdopodval,
+  .psevdosection6,
+  .scr2abusp,
+  .scr4abusp,
+  .scr5abusp {
     display: block;
+  }
+  .scr1abus {
+    height: 350vw;
   }
 }
